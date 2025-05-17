@@ -1,0 +1,553 @@
+@media all and (min-width: 1400px){
+ 
+}
+
+@media all and (max-width: 1400px){
+    .nav-a { 
+        font-size: 16px; 
+    }
+    .btn-1 { 
+        font-size: 16px; 
+    }
+    .hero-header-title,
+    .common-heading { 
+        font-size: 56px; 
+    }
+    .gx-30 {
+        gap: 100px 72px;
+    }
+    h3 { 
+        font-size: 22px; 
+    }
+    p {
+        font-size: 16px; 
+    } 
+    .single-hold-ecm-4::after { 
+        left: 73px; 
+        transform: rotate(125deg);
+    }
+    .single-hold-ecm-2::after { 
+        width: 14.5%; 
+        left: 40%; 
+        transform: rotate(130deg);
+    }
+    .font-20 { 
+        max-width: 298px;
+    }
+}
+
+@media all and (min-width: 1320px) { 
+  .slider-item {
+    padding: 48px 57px;
+  }
+}
+
+@media all and (max-width: 1320px) {
+  .token-item {
+    min-height: 346px;
+  }
+}
+
+@media all and (max-width: 1199px){
+    .hero-crypto-img img {
+        width: 100%;
+    }
+    .slider-area { 
+        overflow: hidden;
+    }
+    .hero-header-title,
+    .common-heading {
+        font-size: 48px;
+    }
+    .single-coin {
+        flex: 0 0 43%;
+    } 
+    .single-hold-ecm-4::after {
+        left: 54px;
+        transform: rotate(121deg);
+    }
+    .hold-btn .btn-1 {
+        font-size: 14px;
+    }
+    .single-hold-ecm-2::after {
+        width: 15.5%;
+        left: 39%;
+        transform: rotate(126deg);
+    }
+    .token-item {
+        max-width: 533px;
+        margin: 0 auto;
+    }
+    .token-item-2 {
+        max-width: 301px !important;
+        min-height: 400px !important;
+        margin: 0 auto;
+    }
+    .form-control {
+        padding: 15px 24px;
+        border-radius: 10px;
+    }
+    .token-area {
+        padding-top: 260px;
+    }
+    .company-name {
+        font-size: 102px;
+    }
+    .footer-companyname {
+        padding: 160px 0 57px 0;
+    }
+    .form-area {
+        padding-top: 30px;
+        padding-bottom: 100px;
+    }
+    .slider-area {
+        padding: 100px 0 54px 0;
+    }
+    .nav ul {
+    gap: 0px 20px;
+    }
+}
+
+@media all and (min-width: 991px){
+    .nav{
+        display: block !important;
+    }
+}
+@media all and (max-width: 991px){
+    .mobile-none{
+        display: none;
+    } 
+    .single-web3 { 
+        padding-bottom: 70px;
+    } 
+    .single-hold-ecm-2::after {
+        width: 14.5%;
+        left: 39.5%;
+        transform: rotate(137deg);
+    }
+    .single-hold-ecm-4::after {
+        left: 24%;
+        transform: rotate(144deg);
+        width: 16%;
+    }
+    .hold-btn { 
+        justify-content: center;
+        margin-top: 35px;
+    }
+    .desktop-none{
+        display: block;
+    }
+    .gx-30 {
+        gap: 60px 72px;
+    }
+    .ecm-coin-content{  
+        clip-path: polygon(50% 0%, 100% 0, 99% 96%, 49% 96%, 43% 100%, 0 100%, 0 0);
+    }
+    .nav { 
+        position: absolute;
+        background: #352d1e;
+        width: 100%;
+        left: 0;
+        top: 70px;
+        padding:  60px 0 50px 0;
+        border-radius: 0 0 15px 15px;
+        display: none;
+    }
+
+    .nav ul { 
+        gap: 26px; 
+        width: 100%;
+    }
+    .logo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .mobile-bars {
+        background: transparent;
+        border: none;
+        color: #FD9E03;
+        font-size: 30px;
+        width: 40px;
+        display: block;
+    }
+    .hero-header-title,
+    .common-heading {
+        font-size: 42px; 
+    }
+    .hero-content > p { 
+        margin: 35px auto 0 auto;
+        font-size: 16px;
+    }
+    .hero-crypto-text p {
+        font-weight: 400; 
+    }
+    .about-img img{
+        width: 100%;
+    }
+    .header { 
+        border-radius: 15px; 
+    }
+    .about-star { 
+        top: 19px;
+        left: 42px;
+    }
+    .token-logo img {
+        max-width: 284px;
+    }
+    .token-area {
+        padding-top: 146px;
+        padding-bottom: 61px;
+    }
+    .slider-item-title {
+        font-size: 18px;
+    }
+    .form-area {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+    .form-label {
+        font-size: 22px;
+        padding-bottom: 10px;
+    }
+    .form-group {
+        padding-bottom: 30px;
+    }
+    .form-text {
+        padding: 27px 39px;
+    }
+    .banner-heading-text {
+        padding-bottom: 10px;
+    }
+    .footer-companyname {
+        padding: 100px 0 70px 0;
+    }
+    .slider-area {
+        padding: 100px 0 115px 0;
+    }
+    .nav ul li{
+        width: 100%;
+    }
+    .nav-a:hover::after, .nav-a.active::after{
+        margin-left:20px;
+    }
+    .nav ul{
+        padding: 10px;
+    }
+    .nav ul li a{
+        width: 100%;
+        display: block;
+        padding-left: 15px;
+    }
+    .hero-logo ul li.active img{
+    transform: scale(1);
+    }
+}
+
+@media all and (max-width: 767px){
+    .single-coin{
+        width: 100%;
+    }
+    .common-top-title { 
+        font-size: 14px; 
+    }
+    .font-20 { 
+        font-size: 16px; 
+    }
+    .common-heading {  
+        line-height: 45px; 
+    }
+    .hero-header-title,
+	.common-heading {
+        font-size: 31px;
+    }
+    .single-hold-ecm-2::after {
+        width: 15.5%;
+        left: 39.5%;
+        transform: rotate(128deg);
+    }
+    .single-hold-ecm{ 
+        border-radius: 15px;  
+    }
+    .single-hold-ecm-4::after {
+        left: 24%;
+        transform: rotate(136deg);
+        width: 16%;
+    }
+    .single-web3{
+       padding-left: 18px;
+       padding-right: 18px;
+    }
+    h4 { 
+        font-size: 18px; 
+    }
+    .ecm-coin-plus{
+        display: none;
+    }
+    .ecm-coin-content {
+    padding: 80px 12px;
+    }
+    .hero-content > p { 
+        font-size: 14px;
+    }
+    p {
+        font-size: 16px; 
+    }
+    .hero-crypto-text p { 
+        font-size: 14px; 
+        letter-spacing: 17%; 
+    }
+    .logo img {
+        width: 143px;
+    }
+    .hero-logo ul li { 
+        flex: 0 0 50%; 
+    }
+    .hero-logo ul li {
+        padding: 50px 0; 
+        gap: 58px;
+    }
+    .slider-item-title {
+        font-size: 18px;
+    }
+    button.slider-item-btn {
+        font-size: 16px;
+        padding: 8px;
+    }
+    .slider-item {
+        border: 3px solid rgba(255, 255, 255, 0.1);
+    }
+    .slider-area .owl-item.active .slider-item:hover {
+        border: 3px solid #fd9e03;
+        border-radius: 40px;
+    }
+    .section-padding {
+        padding: 60px 0;
+    }
+    .single-hold-ecm {
+        border-radius: 15px;
+        background-size: cover;
+    }
+    .single-hold-ecm-4::before,
+    .single-hold-ecm-4.hero-crypto-text , 
+    .single-hold-ecm-2::before,
+    .single-hold-ecm-2::after { 
+        display: none;
+    }
+    
+    .about-content {
+        overflow: inherit;
+    }
+    .token-item {
+        max-width: 548px;
+    }
+    .banner-heading-text {
+        font-size: 42px;
+    } 
+    p {
+        font-size: 16px;
+    }
+    .container {
+        max-width: 95%;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .token-item {
+        min-height: 302px;
+    }
+    .slider-area .owl-prev {
+        right: 133px;
+    }
+    .slider-area .owl-next {
+        right: 65px;
+    }
+    .first-active-item .slider-item {
+        border: 3px solid #fd9e03;
+        border-radius: 20px;
+    }
+    .token-item {
+        min-height: 337px;
+    }
+    .token-area {
+        padding-top: 63px;
+        padding-bottom: 61px;
+    }
+    .btn-2 { 
+        font-size: 14px; 
+    }
+
+    button.slider-item-btn {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .slider-item {
+    border: 3px solid rgba(255, 255, 255, 0.1);
+  }
+  .slider-area .owl-item.active .slider-item:hover {
+    border: 3px solid #fd9e03;
+    border-radius: 40px;
+  }
+  .token-item {
+    max-width: 548px;
+  }
+  .banner-heading-text {
+    font-size: 42px;
+  }
+  p {
+    font-size: 17px;
+  }
+  .slider-area .owl-prev {
+    right: 133px;
+  }
+  .slider-area .owl-next {
+    right: 65px;
+  }
+  .first-active-item .slider-item {
+    border: 3px solid #fd9e03;
+    border-radius: 20px;
+  }
+  .token-item {
+    min-height: 337px;
+  }
+  .token-area {
+    padding-top: 63px;
+    padding-bottom: 61px;
+  }
+  .slider-main {
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .slider-item {
+    border-radius: 30px;
+    min-height: 348px;
+  }
+  .slider-item-title {
+    font-size: 16px;
+  }
+  .slider-area {
+    padding: 80px 0 117px 0;
+  }
+  .form-area {
+    padding-top: 39px;
+    padding-bottom: 70px;
+  }
+  .form-text {
+    padding: 25px 10px;
+  }
+  .token-item-2 {
+    max-width: 260px !important;
+    min-height: 343px !important;
+  }
+  .form-text-header {
+    padding-top: 10px;
+  }
+  .form-control {
+    font-size: 16px;
+    padding: 15px 20px;
+  }
+  .footer-menu-item {
+    font-size: 18px;
+    padding: 5px 12px;
+  }
+  .footer-menu-underline {
+    font-size: 18px;
+    padding: 4px 10px;
+  }
+  .company-name {
+    font-size: 36px;
+  }
+  .footer-companyname {
+    padding: 99px 0 20px 0;
+  }
+  .social-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+}
+ 
+
+}
+
+@media all and (max-width: 575px){
+    .mt-28 {
+        margin-top: 10px;
+    }
+    .web3-btn::after { 
+        width: 105%; 
+    }
+    .hero-header-title,
+    .common-heading {
+        font-size: 28px;
+    }
+    .slider-item-title {
+        font-size: 16px;
+    }
+    .btn-2 { 
+        font-size: 14px; 
+    }
+    .font-20 { 
+        font-size: 14px; 
+    }
+    p {
+        font-size: 14px; 
+    }
+    .single-hold-ecm-2::after { 
+        transform: rotate(124deg);
+    }
+    .single-hold-ecm-4::after {
+        left: 23%;
+        transform: rotate(133deg);
+        width: 18%;
+    }
+    .banner-heading-text {
+        font-size: 35px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .container {
+        max-width: 95%;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .token-item {
+        min-height: 271px;
+        max-width: 548px;
+        padding: 31px 50px;
+    }
+    .slider-main {
+        padding-top: 40px;
+    }
+    .footer-text p {
+        font-size: 16px;
+    }
+    .footer-companyname {
+        padding: 39px 0 20px 0;
+    }
+    .form-text {
+        padding: 10px 5px;
+        padding-bottom: 30px;
+    }
+    .token-area {
+        padding-bottom: 36px;
+    }
+    .slider-area {
+        padding: 80px 0 82px 0;
+    }
+    
+}
+
+@media all and (max-width: 450px){
+	.single-hold-ecm-2::after {
+        transform: rotate(118deg);
+        width: 19.5%;
+        left: 37.5%;
+    }
+    .single-hold-ecm-4::after {
+        left: 22%;
+        transform: rotate(126deg);
+        width: 21%;
+    }
+}
