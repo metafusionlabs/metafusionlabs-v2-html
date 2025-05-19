@@ -36,21 +36,6 @@
 //   });
 
 $(document).ready(function () {
-  // Run on scroll
-  $(window).on("scroll", function () {
-    checkScroll();
-  });
-
-  // Also run on load in case the page starts scrolled
-  checkScroll();
-  // menu bg add
-  function checkScroll() {
-    if ($(window).scrollTop() > 50) {
-      $(".header-area").addClass("menu-bg");
-    } else {
-      $(".header-area").removeClass("menu-bg");
-    }
-  }
   $(".mobile-bars").click(function () {
     $(".nav").slideToggle();
 
@@ -67,18 +52,13 @@ $(document).ready(function () {
     loop: true,
     margin: 10,
     nav: true,
-    autoplay: true,
     dots: false,
-    autoplayTimeout: 3000,
-    autoplayHoverPause: true,
-    smartSpeed: 3000,
-    navText: [
-      `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 20">
-        <path d="M8.33464 18.3327L5.39635 15.4205C3.05313 13.0981 1.88152 11.9369 1.70112 10.5216C1.65692 10.1748 1.65692 9.8239 1.70112 9.47713C1.88152 8.06181 3.05313 6.9006 5.39635 4.5782L8.33464 1.66602" stroke-width="1.5" stroke-linecap="round"/>
-        </svg>`,
-      '<img src="./assets/images/right.svg" alt="Next">',
-    ],
-    // autoplay: true,
+    navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
+    autoplay: true,
+    autoplayTimeout: 4000, // Time between slides (3 seconds)
+    autoplaySpeed: 5000, // Speed of the slide animation (1 second)
+    autoplayHoverPause: true, // Pause on hover
+    smartSpeed: 2000, // Speed for navigation and drag
     responsiveClass: true,
     responsive: {
       0: {
