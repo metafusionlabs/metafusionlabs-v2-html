@@ -701,13 +701,11 @@ button:focus {
 	mask: radial-gradient(circle 40px at top left, transparent 45px, black 40px);
 	background: #090805;
 }
-
 .web3-btn { 
 	position: absolute;
 	bottom: 0;
 	right: 0;
 }
-
 .web3-btn a {
 	position: relative;
 	z-index: 9999;
