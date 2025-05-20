@@ -1,39 +1,3 @@
-//   tsParticles.load("tsparticles", {
-//     background: {
-//       color: {
-//         value: "#000"
-//       }
-//     },
-//     particles: {
-//       number: {
-//         value: 100
-//       },
-//       color: {
-//         value: "#fdd085"
-//       },
-//       shape: {
-//         type: "circle"
-//       },
-//       opacity: {
-//         value: 0.5
-//       },
-//       size: {
-//         value: 3
-//       },
-//       move: {
-//         enable: true,
-//         speed: 2
-//       }
-//     },
-//     interactivity: {
-//       events: {
-//         onhover: {
-//           enable: true,
-//           mode: "repulse"
-//         }
-//       }
-//     }
-//   });
 
 $(document).ready(function () {
   // Run on scroll
@@ -63,7 +27,7 @@ $(document).ready(function () {
     }
   });
 
-  $(".owl-carousel").owlCarousel({
+  $(".ecm-carousel").owlCarousel({
     loop: true,
     margin: 10,
     nav: true,

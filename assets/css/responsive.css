@@ -256,13 +256,13 @@
     width: 272px;
     height: 272px;
   }
-  .pricacy-content::after {
+  .privacy-content::after {
     width: 100%;
   }
   .pagination li a {
     font-size: 18px;
   }
-  .pricacy-content {
+  .privacy-content {
     padding: 90px 0;
   }
 
@@ -339,17 +339,35 @@
   .mission-img.header-hero-about::after {
     position: inherit;
   }
-  .common-pragraph { 
+  .common-paragraph { 
     margin-left: 0;
   }
   .mission-area.section-padding {
     padding: 0;
   }
+  .about-area.about-area-padding-bottom {
+    margin-top: 10px;
+  }
+  .about-content.about-reverse .row {
+    flex-direction: column-reverse;
+  }
+  .single-coin {
+    flex: 0 0 40%;
+  }
+  .about-image-size {
+    width: 55%;
+    margin: 0 auto;
+  }
+  
 }
 
 @media all and (max-width: 767px) {
-  .single-coin {
+  /* .single-coin {
     width: 100%;
+  } */
+
+  .pagination { 
+    margin-bottom: 25px;
   }
   .common-top-title {
     font-size: 14px;
@@ -595,13 +613,13 @@
   .pagination li a {
     font-size: 17px;
   }
-  .pricacy-content {
+  .privacy-content {
     padding: 70px 0;
   }
   .hero-content.about-us-hero .row {
     flex-direction: column-reverse;
   }
-  .common-pragraph {
+  .common-paragraph {
     margin: 28px auto 0 auto;
   }
   .mission-img {
@@ -620,6 +638,9 @@
   }
   .Vision-area.section-padding {
     padding-bottom: 0;
+  }
+  .mt-24 {
+    margin-top: 14px;
   }
 }
 
@@ -711,7 +732,7 @@
   .pagination li a {
     font-size: 16px;
   }
-  .pricacy-content {
+  .privacy-content {
     padding: 50px 0;
   }
   .content-404 h1 {
@@ -723,7 +744,7 @@
 }
 
 @media all and (max-width: 450px) {
-  .pertnership-img h3 {
+  .partnership-img h3 {
     font-size: 28px;
   }
   .single-hold-ecm-2::after {
@@ -735,5 +756,11 @@
     left: 22%;
     transform: rotate(126deg);
     width: 21%;
+  }
+  .hero-logo ul li a{
+    text-align: center;
+  }
+  .hero-logo ul li img { 
+    width: 70%; 
   }
 }
