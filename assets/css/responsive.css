@@ -1,5 +1,3 @@
-@media all and (min-width: 1400px) {
-}
 
 @media all and (max-width: 1400px) {
   .nav-a {
@@ -34,7 +32,6 @@
     max-width: 298px;
   }
 }
-
 @media all and (min-width: 1320px) {
   .slider-item {
     padding: 48px 57px;
@@ -154,7 +151,6 @@
     border-radius: 0 0 15px 15px;
     display: none;
   }
-
   .nav ul {
     gap: 26px;
     width: 100%;
@@ -245,8 +241,6 @@
   .hero-logo ul li.active img {
     transform: scale(1);
   }
-
-  /* ====== responsive rakib  =====  */
   .policy-list {
     gap: 11px;
     padding: 11px 0;
@@ -272,14 +266,18 @@
     padding: 90px 0;
   }
 
-  /* sakil  */
   .mission-img-area {
-    position: inherit;
+    position: absolute;
+    height: 100%; 
+    width: 100%;
+    top: 0;
+    left: 0;
   }
-  .vission-area,
+  .mission-content {  
+    margin: 0 0;
+  }
+  .Vision-area,
   .mission-area {
-    /* display: flex;
-        flex-direction: column-reverse; */
     gap: 30px;
     padding-top: 0 !important;
   }
@@ -292,6 +290,60 @@
   }
   .about-area.about-us-area-padding {
     margin-top: 50px;
+  }
+  .content-404 h1 {
+    font-size: 210px; 
+  }
+  .content-404 img {
+    width: 160px;
+  }
+  .content-error-shape img {
+    width: 58px;
+  }
+  .content-error-shape-3 {
+    left: 86px;
+  }
+  .mission-img:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  .mission-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .Vision-area {
+    margin-top: 0;
+  }
+  .about-area-padding-bottom {
+    padding-bottom: 50px;
+  }
+  .about-area.about-us-area-padding {
+    margin-top: 50px;
+  }
+  .section-padding {
+    padding: 50px 0;
+  }
+
+  .mission-img-area {
+    display: none;
+  }
+  .mission-img-area.about-main-hero {
+    position: inherit;
+    display: block
+  }
+  .mission-img.header-hero-about::after {
+    position: inherit;
+  }
+  .common-pragraph { 
+    margin-left: 0;
+  }
+  .mission-area.section-padding {
+    padding: 0;
   }
 }
 
@@ -520,7 +572,6 @@
     bottom: -59px;
     right: 88px;
   }
-  /*  =====  Rakib code start  =====  */
   .policy-info-header .common-heading {
     padding-bottom: 12px;
   }
@@ -547,8 +598,6 @@
   .pricacy-content {
     padding: 70px 0;
   }
-  /* sakil  */
-  /* shakil css here  */
   .hero-content.about-us-hero .row {
     flex-direction: column-reverse;
   }
@@ -559,20 +608,17 @@
     margin-top: 25px;
     padding: 0 25px;
   }
-  .about-area.about-us-area-padding {
-    margin-top: 0;
-  }
   .flex-column-lg {
     flex-direction: column-reverse;
   }
   .hero-header-common.common-top-title.mt-66 {
     margin-top: 0;
   }
-  .vission-list i {
+  .Vision-list i {
     width: 30px;
     height: 30px;
   }
-  .vission-area.section-padding {
+  .Vision-area.section-padding {
     padding-bottom: 0;
   }
 }
@@ -643,7 +689,6 @@
   .slider-area {
     padding: 80px 0 82px 0;
   }
-  /* ======  Rakib code start  ======  */
   .policy-list li {
     font-size: 16px;
   }
@@ -669,9 +714,18 @@
   .pricacy-content {
     padding: 50px 0;
   }
+  .content-404 h1 {
+    font-size: 155px;
+  }
+  .content-404 > img {
+    width: 112px;
+  }
 }
 
 @media all and (max-width: 450px) {
+  .pertnership-img h3 {
+    font-size: 28px;
+  }
   .single-hold-ecm-2::after {
     transform: rotate(118deg);
     width: 19.5%;

@@ -1666,15 +1666,17 @@ button:focus {
 
 /* start pagination section  */
 .pagination {
-  display: flex;
-  padding-top: 24px;
+	display: flex;
+	padding-top: 24px;
+	align-items: center;
+	gap: 16px;
 }
+
 .pagination li a {
   color: #fff;
   font-weight: 400;
   font-size: 20px;
-  line-height: 100%;
-  margin-right: 32px;
+  line-height: 100%; 
   cursor: pointer;
   z-index: 999;
   position: relative;
@@ -1793,14 +1795,14 @@ section.policy-area.section-padding {
   bottom: -14%;
 }
 
-.sk-ellipse-2 {
+.random-ellipse-2 {
   right: -4%;
   bottom: -8%;
   opacity: 0.5;
   filter: blur(110px);
   z-index: 9;
 }
-.sk-ellipse-1 {
+.random-ellipse-1 {
   left: -7%;
   top: 0%;
   filter: blur(110px);
@@ -1820,11 +1822,11 @@ section.policy-area.section-padding {
   bottom: 0;
 }
 
-.vission-area {
-  margin-top: 150px;
+.Vision-area {
+  /* margin-top: 150px; */
 }
 
-.vission-area,
+.Vision-area,
 .mission-area {
   position: relative;
 }
@@ -1845,16 +1847,17 @@ section.policy-area.section-padding {
 }
 
 .pertnership-img img {
-  width: 100%;
+	width: 100%;
+	max-width: 315px;
 }
 
-.vission-list li {
+.Vision-list li {
   display: flex;
   align-items: center;
   gap: 16px;
 }
 
-.vission-list i {
+.Vision-list i {
   width: 40px;
   height: 40px;
   background: #ffffff1a;
@@ -1885,4 +1888,143 @@ section.policy-area.section-padding {
 .header-hero-about {
   margin-top: 250px;
   margin-right: 50px;
+}
+
+
+
+/* 404 page css here  */
+
+.content-404 {
+  text-align: center;
+  padding: 200px 0;
+  position: relative;
+}
+
+.content-404 h1 {
+  font-size: 438px;
+  font-weight: 900;
+  color: #FD9E03;
+  letter-spacing: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0; 
+  font-family: "Inter", sans-serif;
+}
+
+.content-404 p {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 60px auto;
+}
+
+.content-404 img {
+  margin: 0 -18px;
+}
+
+.content-error-shape-1 {
+  position: absolute;
+  top: 0;
+  left: 60px;
+}
+
+.content-error-shape-2 {
+  position: absolute;
+  top: 136px;
+  right: 417px;
+}
+
+.content-error-shape-3 {
+  position: absolute;
+  top: 528px;
+  left: 244px;
+}
+
+.content-error-shape-4 {
+  position: absolute;
+  top: 568px;
+  right: 0;
+}
+
+.content-error-shape-5 {
+  position: absolute;
+  bottom: 88px;
+  left: 421px;
+}
+
+.content-error-shape-6 {
+  position: absolute;
+  bottom: 0;
+  right: 219px;
+}
+
+/* Common styles */
+.content-error-shape div {
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+/* Animation 1: Float Up and Down */
+@keyframes float1 {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+.content-error-shape-1 {
+    animation-name: float1;
+}
+
+/* Animation 2: Left to Right */
+@keyframes float2 {
+    0%, 100% { transform: translateX(0); }
+    50% { transform: translateX(20px); }
+}
+.content-error-shape-2 {
+    animation-name: float2;
+}
+
+/* Animation 3: Rotate */
+@keyframes float3 {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.content-error-shape-3 {
+    animation-name: float3;
+}
+
+/* Animation 4: Scale Pulse */
+@keyframes float4 {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+.content-error-shape-4 {
+    animation-name: float4;
+}
+
+/* Animation 5: Diagonal Movement */
+@keyframes float5 {
+    0%, 100% { transform: translate(0, 0); }
+    50% { transform: translate(15px, -15px); }
+}
+.content-error-shape-5 {
+    animation-name: float5;
+}
+
+/* Animation 6: Wiggle */
+@keyframes float6 {
+    0%, 100% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    75% { transform: rotate(-5deg); }
+}
+.content-error-shape-6 {
+    animation-name: float6;
+}
+.error-404-area {
+  overflow: hidden;
+}
+
+.breadcump-line {
+  width: 2px;
+  height: 20px;
+  background: #FFFFFF33;
+  display: block;
 }
