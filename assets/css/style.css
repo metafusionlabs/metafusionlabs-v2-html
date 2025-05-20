@@ -576,12 +576,12 @@ button:focus {
   border-radius: 30px;
   height: 544px;
   transition: 0.3s;
-  border: 1px solid transparent;
+  /* border: 1px solid transparent; */
 }
 
-.single-hold-ecm:hover {
+/* .single-hold-ecm:hover {
   border: 1px solid #fd9e04;
-}
+} */
 
 .single-hold-ecm-1 {
   background: url(../images/hold/1.png) no-repeat scroll center center / 100% 100%;
@@ -591,11 +591,11 @@ button:focus {
   background: url(../images/hold/2.png);
   background-size: 100% 100%;
   background-position: center center;
-  clip-path: polygon(50% 0%, 100% 0, 100% 89%, 52% 89%, 43% 100%, 0 100%, 0 0);
+  /* clip-path: polygon(50% 0%, 100% 0, 100% 89%, 52% 89%, 43% 100%, 0 100%, 0 0); */
   position: relative;
 }
 
-.single-hold-ecm-2::after {
+/* .single-hold-ecm-2::after {
   content: "";
   position: absolute;
   width: 14%;
@@ -616,22 +616,22 @@ button:focus {
   bottom: 11%;
   right: 0;
   z-index: 99;
-}
+} */
 .single-hold-ecm-3 {
   background: url(../images/hold/3.png) no-repeat scroll center center / 100% 100%;
 }
 .single-hold-ecm-4 {
   background: url(../images/hold/4.png) no-repeat scroll center center / 100% 100%;
-  clip-path: polygon(38% 0, 100% 0, 100% 100%, 56% 100%, 0 100%, 0 11.3%, 26% 11%);
+  /* clip-path: polygon(38% 0, 100% 0, 100% 100%, 56% 100%, 0 100%, 0 11.3%, 26% 11%); */
   padding-top: 85px;
   position: relative;
 }
-.single-hold-ecm-4:hover::after,
+/* .single-hold-ecm-4:hover::after,
 .single-hold-ecm-4:hover::before {
   background-color: #fd9e04;
-}
+} */
 
-.single-hold-ecm-4::after {
+/* .single-hold-ecm-4::after {
   content: "";
   position: absolute;
   width: 77px;
@@ -652,7 +652,7 @@ button:focus {
   top: 61px;
   left: 0;
   z-index: 99;
-}
+} */
 
 .hold-btn {
   display: flex;
@@ -775,7 +775,7 @@ button:focus {
 }
 .token-logo {
   position: absolute;
-  top: 0;
+  top:-50px;
   left: 0;
   right: 0;
   text-align: center;
@@ -1092,13 +1092,13 @@ button:focus {
 
 /*=============  start Token Section  =============*/
 .token-area {
-  padding-top: 220px;
+  padding-top:180px;
   padding-bottom: 100px;
   position: relative;
 }
 .token-logo {
   position: absolute;
-  top: 0;
+  top:-50px;
   left: 0;
   right: 0;
   text-align: center;
@@ -1486,11 +1486,27 @@ button:focus {
 }
 .bar-line-animation-3 {
   bottom: 35%;
-  left: 12%;
+  left: 10%;
 }
 .bar-line-animation-4 {
   bottom: 35%;
   right: 10%;
+}
+.bar-line-animation-5 {
+  top: 0%;
+  left: 50%;
+  margin: 0 auto;
+  transform: translateX(-50%);
+}
+.bar-line-animation-6 {
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.bar-line-animation-7 {
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 /* bar animation end */
 /* Start particle effect css */
@@ -1694,8 +1710,10 @@ button:focus {
   z-index: -1;
 }
 .policy-map img {
-  width: 370px;
-  height: 370px;
+  max-width: 300px;
+  max-height: 300px;
+  height: 100%;
+  width: 100%;
 }
 section.policy-area.section-padding {
   padding-top: 0;
@@ -1766,19 +1784,7 @@ section.policy-area.section-padding {
   align-items: center;
   justify-content: space-between;
 }
-.bar-line-animation-1 {
-  bottom: 4%;
-  left: 36%;
-}
-
-.bar-line-animation-2 {
-  bottom: 45%;
-  left: 36%;
-}
-.bar-line-animation-3 {
-  top: 5%;
-  left: 36%;
-}
+ 
 
 /* About US Section CSS  */
 
@@ -1794,18 +1800,15 @@ section.policy-area.section-padding {
   filter: blur(110px);
   z-index: 9;
 }
-
 .sk-ellipse-1 {
   left: -7%;
   top: 0%;
   filter: blur(110px);
   z-index: 9;
 }
-
 .about-us-image {
   position: relative;
 }
-
 .about-ecm-img {
   position: absolute;
   display: flex;

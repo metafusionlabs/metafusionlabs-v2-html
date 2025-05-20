@@ -40,14 +40,13 @@
     padding: 48px 57px;
   }
 }
-
 @media all and (max-width: 1320px) {
   .token-item {
     min-height: 346px;
   }
 }
-
 @media all and (max-width: 1199px) {
+ 
   .hero-crypto-img img {
     width: 100%;
   }
