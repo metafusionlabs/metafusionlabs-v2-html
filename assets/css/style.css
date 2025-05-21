@@ -1051,6 +1051,7 @@ button:focus {
   z-index: 9;
   background-color: #000 !important;
 }
+
 .slider-area .owl-nav::after {
   content: "";
   position: absolute;
@@ -1061,6 +1062,7 @@ button:focus {
   background-color: rgba(255, 255, 255, 0.1) !important;
   z-index: -3;
 }
+
 .slider-area .owl-next img {
   height: 20px;
   width: auto;
@@ -2019,4 +2021,143 @@ section.policy-area.section-padding {
   height: 20px;
   background: #FFFFFF33;
   display: block;
+}
+
+.mission-img-area .row {
+	width: 100%;
+}
+
+/* Contact Page CSS  */
+
+
+.contact-form-area {
+	background: #FFFFFF1A;
+	border-radius: 10px;
+	padding: 24px;
+	z-index: 999;
+	position: relative;
+}
+
+.contact-heading{
+  font-size: 40px;
+}
+
+.form-info {
+	height: 100%;
+	background: #090805;
+	padding: 40px;
+	border-radius: 10px;
+}
+
+.form-list a {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 25px;
+	letter-spacing: 0%;
+	color: #fff;
+	transition: 0.3s;
+	display: flex;
+	align-items: flex-start;
+	gap: 12px;
+}
+
+ 
+
+.form-list li a:hover {
+  color: #fd9e03;
+}
+
+.mt-192{
+  margin-top: 192px;
+}
+
+.contact-social-icon{
+  gap: 24px;
+}
+
+.contact-social-icon .social-icon { 
+	background: #FFFFFF1A; 
+	color: #fff; 
+  margin-right: 0;
+}
+
+.contact-social-icon .social-icon:hover {
+  background: #fd9e03;
+}
+
+.form-list {
+	width: 100%;
+	max-width: 360px;
+}
+
+.contact-box .form-group label { 
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 20px;
+	letter-spacing: 0%;
+	color: #FFFFFFCC;
+	margin-bottom: 4px;
+}
+
+.contact-box .form-group textarea,
+.contact-box .form-group input {
+  border: none;
+  border-radius: 0;
+  padding: 6px 0px;
+  resize: none;
+  color: #FFFFFFCC;
+	border-bottom: 1px solid #FFFFFFCC;
+  backdrop-filter: none;
+	background: transparent !important;
+}
+
+.contact-box .form-group input::placeholder ,
+.contact-box .form-group textarea::placeholder {
+  color: #FFFFFF66;
+}
+
+.contact-box .form-control:focus {
+	/* border: none; */
+	box-shadow: none;
+	background-color: transparent;  
+}
+
+.contact-btn-right button {
+  border: none;
+}
+
+.form-info{
+  position: relative;
+  overflow: hidden;
+  z-index: 99;
+}
+
+.contact-circle-shape{
+  border-radius: 100%;
+  width: 138px;
+  height: 138px;
+  background: #FFFFFF0D;
+  position: absolute;
+  right: 85px;
+  bottom: 61px;
+  z-index: -9;
+}
+
+.contact-circle-corner{
+  border-radius: 100%;
+  width: 269px;
+  height: 269px;
+  background: #FFFFFF14;
+  position: absolute;
+  right: -74px;
+  bottom: -96px;
+  z-index: -9;
+}
+
+.form-list i {
+  margin-top: 5px;
+}
+
+.contact-form-main{
+  padding-bottom: 148px;
 }

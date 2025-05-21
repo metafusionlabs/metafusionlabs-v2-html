@@ -358,6 +358,9 @@
     width: 55%;
     margin: 0 auto;
   }
+  .form-info { 
+    padding: 25px; 
+  }
   
 }
 
@@ -365,7 +368,22 @@
   /* .single-coin {
     width: 100%;
   } */
-
+  .form-info {
+    margin-bottom: 40px;
+  }
+  .contact-form-main{
+    padding-bottom: 50px;
+  }
+  .contact-circle-corner { 
+    width: 215px;
+    height: 215px; 
+  }
+  .contact-circle-shape { 
+    width: 110px;
+    height: 110px; 
+    right: 48px;
+    bottom: 36px;
+  }
   .pagination { 
     margin-bottom: 25px;
   }
