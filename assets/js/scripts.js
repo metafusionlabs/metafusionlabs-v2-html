@@ -30,7 +30,7 @@ $(document).ready(function () {
   $(".ecm-carousel").owlCarousel({
     loop: true,
     margin: 10,
-    nav: true,
+    nav: false,
     autoplay: true,
     dots: false,
     autoplayTimeout: 3000,

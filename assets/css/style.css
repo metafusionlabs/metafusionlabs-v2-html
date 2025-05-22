@@ -101,7 +101,7 @@ h4 {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
-  letter-spacing: 0%;
+
   color: #ffffff;
 }
 
@@ -109,7 +109,6 @@ h5 {
   font-weight: 500;
   font-size: 24px;
   line-height: 120%;
-  letter-spacing: 0%;
   color: #ffffff;
 }
 
@@ -117,7 +116,6 @@ h3 {
   font-weight: 500;
   font-size: 28px;
   line-height: 120%;
-  letter-spacing: 0%;
   color: #ffffff;
 }
 
@@ -155,7 +153,6 @@ p {
   font-weight: 400;
   font-size: 20px;
   line-height: 100%;
-  letter-spacing: 0%;
   color: #857d71;
   position: relative;
   display: inline-block;
@@ -165,9 +162,8 @@ p {
 .nav-a:hover,
 .nav-a.active {
   color: #fd9e03;
-  transform: translateY(-10px);
 }
-.nav-a:hover::after,
+/* .nav-a:hover::after,
 .nav-a.active::after {
   content: "";
   position: absolute;
@@ -179,14 +175,14 @@ p {
   left: 0;
   right: 0;
   margin: 0 auto;
-}
+} */
 
 .nav ul {
   gap: 0 48px;
 }
 
 .header {
-  padding: 24px;
+  padding:14px 24px;
   border-radius: 30px;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(1px);
@@ -197,7 +193,7 @@ p {
   padding: 12px 24px;
   border-radius: 10px;
   background: #3d3d3c;
-  font-weight: 600;
+  font-weight:400;
   font-size: 18px;
   color: #fff;
   z-index: 99;
@@ -265,7 +261,6 @@ p {
   font-weight: 500;
   font-size: 60px;
   line-height: 110.00000000000001%;
-  letter-spacing: 0%;
   color: #fff;
 }
 
@@ -520,11 +515,9 @@ button:focus {
 }
 
 .coin-value {
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
+  font-weight:500;
   font-size: 27px;
-  line-height: 100%;
-  letter-spacing: 0%;
+  line-height:35px;
   text-transform: uppercase;
   color: #ffffff;
   position: absolute;
@@ -545,7 +538,9 @@ button:focus {
 .single-coin {
   flex: 0 0 27%;
 }
-
+.single-coin h4{
+  line-height: 32px;
+}
 .ecm-coin-plus-1 {
   position: absolute;
   top: 44%;
@@ -615,7 +610,7 @@ button:focus {
 .single-hold-ecm-4 {
   background: url(../images/hold/4.png) no-repeat scroll center center / 100% 100%;
   /* clip-path: polygon(38% 0, 100% 0, 100% 100%, 56% 100%, 0 100%, 0 11.3%, 26% 11%); */
-  padding-top: 85px;
+  padding-top:100px;
   position: relative;
 }
 /* .single-hold-ecm-4:hover::after,
@@ -735,7 +730,6 @@ button:focus {
   font-weight: 600;
   font-size: 18px;
   line-height: 160%;
-  letter-spacing: 0%;
   color: #fff;
   display: inline-block;
   transition: 0.3s;
@@ -872,7 +866,6 @@ button:focus {
   font-weight: 600;
   font-size: 24px;
   line-height: 120%;
-  letter-spacing: 0%;
   color: #fff;
   padding-bottom: 16px;
 }
@@ -881,7 +874,6 @@ button:focus {
   font-weight: 400;
   font-size: 18px;
   line-height: 120%;
-  letter-spacing: 0%;
   padding: 27px 34px;
   border-radius: 16px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -1296,10 +1288,6 @@ button:focus {
 .footer-menu-item:hover {
   color: #fd9e03;
 }
-.footer-menu2 {
-  padding: 40px 0;
-}
-
 .footer-menu-underline {
   font-size: 20px;
   line-height: 150%;
@@ -1319,13 +1307,12 @@ button:focus {
 .footer-text p {
   font-size: 18px;
   line-height: 160%;
-  letter-spacing: 0%;
   text-align: center;
   color: rgba(255, 255, 255, 0.8);
 }
 
 .footer-companyname {
-  padding: 200px 0 70px 0;
+  padding:100px 0 70px 0;
 }
 .company-name {
   font-weight: 600;
@@ -1781,14 +1768,11 @@ section.policy-area.section-padding {
   justify-content: space-between;
 }
  
-
 /* About US Section CSS  */
-
 .bar-line-animation-about-hero {
   left: 37%;
   bottom: -14%;
 }
-
 .random-ellipse-2 {
   right: -4%;
   bottom: -8%;
@@ -1815,21 +1799,17 @@ section.policy-area.section-padding {
   right: 0;
   bottom: 0;
 }
-
 .Vision-area {
   /* margin-top: 150px; */
 }
-
 .Vision-area,
 .mission-area {
   position: relative;
 }
-
 .mission-content {
   position: relative;
   z-index: 9999;
 }
-
 .mission-img-area {
   position: absolute;
   top: 0;
@@ -1839,18 +1819,15 @@ section.policy-area.section-padding {
   align-items: center;
   bottom: 0;
 }
-
 .partnership-img img {
 	width: 100%;
 	max-width: 315px;
 }
-
 .Vision-list li {
   display: flex;
   align-items: center;
   gap: 16px;
 }
-
 .Vision-list i {
   width: 40px;
   height: 40px;
@@ -1861,7 +1838,6 @@ section.policy-area.section-padding {
   justify-content: center;
   align-items: center;
 }
-
 .partnership-box {
   border: 2px solid #ffffff0d;
   background: #ffffff1a;
@@ -1878,22 +1854,16 @@ section.policy-area.section-padding {
   font-size: 35px;
   margin-bottom: 6px;
 }
-
 .header-hero-about {
   margin-top: 250px;
   margin-right: 50px;
 }
-
-
-
 /* 404 page css here  */
-
 .content-404 {
   text-align: center;
   padding: 200px 0;
   position: relative;
 }
-
 .content-404 h1 {
   font-size: 438px;
   font-weight: 900;
@@ -1903,61 +1873,50 @@ section.policy-area.section-padding {
   justify-content: center;
   align-items: center;
   gap: 0; 
-  font-family: "Inter", sans-serif;
 }
-
 .content-404 p {
   width: 100%;
   max-width: 400px;
   margin: 0 auto 60px auto;
 }
-
 .content-404 img {
   margin: 0 -18px;
 }
-
 .content-error-shape-1 {
   position: absolute;
   top: 0;
   left: 60px;
 }
-
 .content-error-shape-2 {
   position: absolute;
   top: 136px;
   right: 417px;
 }
-
 .content-error-shape-3 {
   position: absolute;
   top: 528px;
   left: 244px;
 }
-
 .content-error-shape-4 {
   position: absolute;
   top: 568px;
   right: 0;
 }
-
 .content-error-shape-5 {
   position: absolute;
   bottom: 88px;
   left: 421px;
 }
-
 .content-error-shape-6 {
   position: absolute;
   bottom: 0;
   right: 219px;
 }
-
 /* Common styles */
 .content-error-shape div {
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
-
 /* Animation 1: Float Up and Down */
 @keyframes float1 {
     0%, 100% { transform: translateY(0); }
@@ -1966,7 +1925,6 @@ section.policy-area.section-padding {
 .content-error-shape-1 {
     animation-name: float1;
 }
-
 /* Animation 2: Left to Right */
 @keyframes float2 {
     0%, 100% { transform: translateX(0); }
@@ -2053,7 +2011,6 @@ section.policy-area.section-padding {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 25px;
-	letter-spacing: 0%;
 	color: #fff;
 	transition: 0.3s;
 	display: flex;
@@ -2094,7 +2051,6 @@ section.policy-area.section-padding {
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 20px;
-	letter-spacing: 0%;
 	color: #FFFFFFCC;
 	margin-bottom: 4px;
 }
