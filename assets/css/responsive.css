@@ -241,7 +241,7 @@
   .hero-logo ul li.active img {
     transform: scale(1);
   }
-  .policy-list {
+  .single-item-policy {
     gap: 11px;
     padding: 11px 0;
     padding-left: 24px;
@@ -611,10 +611,10 @@
   .policy-info-header .common-heading {
     padding-bottom: 12px;
   }
-  .policy-list li {
+  .single-item-policy ul li {
     font-size: 17px;
   }
-  .policy-list li::after {
+  .single-item-policy ul li::after {
     top: 7px;
   }
   .single-item-policy-header {
@@ -728,16 +728,16 @@
   .slider-area {
     padding: 80px 0 82px 0;
   }
-  .policy-list li {
+  .single-item-policy ul li {
     font-size: 16px;
   }
-  .policy-list {
+  .single-item-policy ul {
     gap: 8px;
     padding: 8px 0;
     padding-left: 24px;
   }
 
-  .policy-list li::after {
+  .single-item-policy ul li::after {
     top: 9px;
   }
   .policy-map img {

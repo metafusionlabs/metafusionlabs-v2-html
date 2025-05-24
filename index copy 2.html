@@ -110,18 +110,17 @@
                             <circle r="3" class="dot motion-dot motion-dot-1" />
                         </svg>
                     </div>
-                    <div class="svg-item" style="margin-left: 50px;    margin-top: -119px;">
+                    <div class="svg-item" style="margin-left: 50px; margin-top: -119px;">
                         <svg width="100%" height="100%">
-                        
                         <defs>
-                        <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                            <stop offset="0%" stop-color="#19130D" />
-                            <stop offset="100%" stop-color="#27221C" />
-                        </linearGradient>
-                        </defs>
-                        <path d="M20,20 V100 H100 V20 H160" class="path" />
-                        <circle r="3" class="dot motion-dot motion-dot-2" />
-                    </svg>
+                            <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="#19130D" />
+                                <stop offset="100%" stop-color="#27221C" />
+                            </linearGradient>
+                            </defs>
+                            <path d="M20,20 V100 H100 V20 H160" class="path" />
+                            <circle r="3" class="dot motion-dot motion-dot-2" />
+                        </svg>
                     </div>
                     <div class="svg-item" style="transform: rotateY(180deg);
                         display: inline-block;margin-left:-100px;margin-top: -60px;">
@@ -153,15 +152,15 @@
                     <div class="svg-item" style="margin-left: 50px;    margin-top: -119px;">
                         <svg width="100%" height="100%">
                         
-                        <defs>
-                        <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                            <stop offset="0%" stop-color="#19130D" />
-                            <stop offset="100%" stop-color="#27221C" />
-                        </linearGradient>
-                        </defs>
-                        <path d="M20,20 V100 H100 V20 H160" class="path" />
-                        <circle r="3" class="dot motion-dot motion-dot-2" />
-                    </svg>
+                            <defs>
+                            <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="#19130D" />
+                                <stop offset="100%" stop-color="#27221C" />
+                            </linearGradient>
+                            </defs>
+                            <path d="M20,20 V100 H100 V20 H160" class="path" />
+                            <circle r="3" class="dot motion-dot motion-dot-2" />
+                        </svg>
                     </div>
                     <div class="svg-item" style="transform: rotateY(180deg);
                         display: inline-block;margin-left:-100px;margin-top: -60px;">
@@ -194,7 +193,6 @@
                                 </div>
                                 <p class="common-pragraph text-center">Powering ECM Coin and its ecosystem—delivering scalable, low-cost, blockchain infrastructure for e-commerce, trading, and beyond.</p>
                             </div> 
-
                             <div class="hero-crypto-img">
                                 <img src="assets/images/hero/crypto-bg.png" alt="">
                             </div>
@@ -338,8 +336,6 @@
         </footer>
         <!--=====================  End Footer Area  ====================-->
  
-
-
         <!-- ~~~~~~~~~~ JS Files ~~~~~~~~~~-->
         <!-- jQuery -->
         <script src="assets/js/jquery.min.js"></script>
@@ -354,30 +350,12 @@
         <!-- Custom JS (Handed)-->
         <script src="assets/js/scripts.js"></script>
         <script>
-            const areas = document.querySelectorAll(".particle-area");
-
-areas.forEach((area) => {
-  area.style.position = "relative";
-
-  const numParticles = parseInt(area.getAttribute("data-particles")) || 30;
-
-  for (let i = 0; i < numParticles; i++) {
-    const particle = document.createElement("div");
-    particle.classList.add("particle");
-
-    particle.style.left = Math.random() * 100 + "%";
-    particle.style.top = 80 + Math.random() * 20 + "%";
-
-    const duration = 4 + Math.random() * 4;
-    const delay = Math.random() * 5;
-    particle.style.animationDuration = `${duration}s`;
-    particle.style.animationDelay = `${delay}s`;
-
-    area.appendChild(particle);
-  }
-});
-
- 
+            let x = "hello test";
+           let classroom = {
+            one : "this first class",
+            two : "This is seconds Class",
+           }
+           console.log(classroom.one);
         </script>
     </body>
 </html> 

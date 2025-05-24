@@ -804,7 +804,7 @@
                 </defs>
                 <path d="M20,20 V100 H100 V20 H160" class="path" />
                 <circle r="3" class="dot motion-dot motion-dot-2" />
-            </svg>
+                </svg>
             </div>
             <div class="svg-item" style="transform: rotateY(180deg);
                 display: inline-block;margin-left:-100px;margin-top: -60px;">
@@ -871,28 +871,22 @@
                 const delay = Math.random() * 5;
                 particle.style.animationDuration = `${duration}s`;
                 particle.style.animationDelay = `${delay}s`;
-
                 area.appendChild(particle);
             }
             });
-
- 
         </script>
        <script>
             const listItems = document.querySelectorAll('.hero-logo ul li');
             const heroLogoSection = document.querySelector('.hero-logo');
             let intervalId = null;
             let hasStarted = false;
-
             function highlightRandomItem() {
                 // Clear all first
                 listItems.forEach(li => li.classList.remove('active'));
-
                 // Choose a random one
                 const randomIndex = Math.floor(Math.random() * listItems.length);
                 listItems[randomIndex].classList.add('active');
             }
-
             // Observe when .hero-logo enters the viewport
             const observer = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
@@ -905,7 +899,6 @@
             }, {
                 threshold: 0.3
             });
-
             observer.observe(heroLogoSection);
     </script>
     <script>

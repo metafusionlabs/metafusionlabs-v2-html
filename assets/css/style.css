@@ -27,7 +27,6 @@ ul li a,
 a {
   text-decoration: none;
 }
-
 .mt-10 {
   margin-top: 10px;
 }
@@ -61,7 +60,6 @@ a {
 .mt-40 {
   margin-top: 40px;
 }
-
 .mb-10 {
   margin-bottom: 10px;
 }
@@ -92,11 +90,9 @@ a {
 .mb-28 {
   margin-bottom: 28px;
 }
-
 .mb-60 {
   margin-bottom: 60px;
 }
-
 h4 {
   font-weight: 500;
   font-size: 20px;
@@ -104,34 +100,29 @@ h4 {
 
   color: #ffffff;
 }
-
 h5 {
   font-weight: 500;
   font-size: 24px;
   line-height: 120%;
   color: #ffffff;
 }
-
 h3 {
   font-weight: 500;
   font-size: 28px;
   line-height: 120%;
   color: #ffffff;
 }
-
 p {
   font-size: 18px;
   line-height: 160%;
   color: rgba(255, 255, 255, 0.8);
 }
-
 /* .container {
 	position: relative;
 	z-index: 99999;
 } */
 
 /*==========  Header Page  ==========*/
-
 .header-area {
   position: fixed;
   top: 60px;
@@ -139,7 +130,6 @@ p {
   width: 100%;
   z-index: 9999999;
 }
-
 .logo img {
   width: 200px;
 }
@@ -158,7 +148,6 @@ p {
   display: inline-block;
   transition: 0.3s;
 }
-
 .nav-a:hover,
 .nav-a.active {
   color: #fd9e03;
@@ -180,14 +169,12 @@ p {
 .nav ul {
   gap: 0 48px;
 }
-
 .header {
   padding:14px 24px;
   border-radius: 30px;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(1px);
 }
-
 .btn-1 {
   position: relative;
   padding: 12px 24px;
@@ -201,7 +188,6 @@ p {
   display: inline-block;
   transition: 0.3s;
 }
-
 .btn-1 img {
   position: absolute;
   top: -49px;
@@ -210,15 +196,12 @@ p {
   right: 0;
   margin: auto;
 }
-
 .btn-1:hover {
   color: #fff;
 }
-
 .btn-1:hover img {
   animation: slideLeftRight 1s forwards;
 }
-
 @keyframes slideLeftRight {
   0% {
     left: 0;
@@ -232,19 +215,15 @@ p {
     transform: rotate(180deg);
   }
 }
-
 /*===========  Banner Page  =============*/
-
 .hero-area {
   padding-top: 210px;
   position: relative;
   padding-bottom: 61px;
 }
-
 .hero-content {
   text-align: center;
 }
-
 .common-top-title {
   font-weight: 400;
   font-size: 18px;
@@ -252,40 +231,32 @@ p {
   letter-spacing: 3px;
   color: #fff;
 }
-
 .mt-66 {
   margin-top: 66px;
 }
-
 .common-heading {
   font-weight: 500;
   font-size: 60px;
-  line-height: 110.00000000000001%;
+  line-height: 110%;
   color: #fff;
 }
-
 .font-64 {
   font-size: 64px;
 }
-
 .primary-color {
   color: #fd9e03;
 }
-
 .section-padding {
   padding: 100px 0;
 }
-
 .hero-header-title {
   width: 100%;
   max-width: 1050px;
   font-size: 64px;
 }
-
 .hero-crypto-text {
   position: relative;
 }
-
 .hero-crypto-img {
   position: absolute;
   top: 30px;
@@ -294,24 +265,20 @@ p {
   margin: 0 auto;
   z-index: -1;
 }
-
 .common-paragraph {
   color: #ffffffcc;
   width: 100%;
   max-width: 766px;
   margin: 60px auto 0 auto;
 }
-
 .hero-btn {
   margin: 40px 0 60px 0;
 }
-
 .hero-btn ul {
   display: flex;
   justify-content: center;
   gap: 16px;
 }
-
 .hero-logo ul {
   display: flex;
   flex-wrap: wrap;
@@ -320,7 +287,6 @@ p {
 .container {
   max-width: 1350px;
 }
-
 .hero-logo ul li img {
   transform: scale(1);
   transition: 0.5s;
@@ -351,7 +317,6 @@ p {
 .hero-logo {
   position: relative;
 }
-
 .border-middle {
   border: 1px solid;
   display: block;
@@ -361,19 +326,16 @@ p {
   position: absolute;
   left: 0;
   height: 1px;
-
   top: 0;
   bottom: 0;
   margin: auto;
 }
-
 .hero-shape-left {
   position: absolute;
   left: 0;
   top: 0;
   z-index: -1;
 }
-
 .hero-shape-left span {
   display: block;
   width: 134px;
@@ -385,33 +347,27 @@ p {
   position: relative;
   opacity: 1;
 } 
-
 .hero-content {
   position: relative;
   z-index: 99;
 }
-
 .mobile-none {
   display: block;
 }
 .desktop-none {
   display: none;
 }
-
 button:focus {
   outline: none;
 }
 .mobile-bars {
   display: none;
 }
-
 /*===========  About Page  =============*/
-
 .about-area {
   margin-top: 150px;
   position: relative;
 }
-
 .about-ul p::after {
   content: "";
   position: absolute;
@@ -421,12 +377,10 @@ button:focus {
   height: 12px;
   background: #fd9e04;
 }
-
 .about-text > p {
   color: #ffffff;
   position: inherit;
 }
-
 .about-ul {
   display: flex;
   flex-direction: column;
@@ -434,11 +388,9 @@ button:focus {
   margin-top: 24px;
   margin-left: 30px;
 }
-
 .about-ul p {
   position: relative;
 }
-
 .about-left {
   position: absolute;
   top: 0;
@@ -451,7 +403,6 @@ button:focus {
   bottom: 0;
   right: 0;
 }
-
 .about-img {
   position: relative;
 }
@@ -459,13 +410,11 @@ button:focus {
 .about-content {
   overflow: hidden;
 }
-
 .about-star {
   position: absolute;
   top: 85px;
   left: 60px;
 }
-
 .about-shape-left {
   position: absolute;
   width: 293px;
@@ -501,7 +450,6 @@ button:focus {
 .ecm-coin-area {
   position: relative;
 }
-
 .ecm-coin-content {
   padding: 100px 128px 200px 128px;
   background: #151411;
@@ -509,11 +457,9 @@ button:focus {
   position: relative;
   clip-path: polygon(50% 0%, 100% 0, 100% 89%, 52% 89%, 43% 100%, 0 100%, 0 0);
 }
-
 .single-coin {
   text-align: center;
 }
-
 .coin-value {
   font-weight:500;
   font-size: 27px;
@@ -526,7 +472,6 @@ button:focus {
   right: 0;
   height: 100%;
 }
-
 .coin-number {
   position: relative;
 }
@@ -534,7 +479,6 @@ button:focus {
 .gx-30 {
   gap: 110px 100px;
 }
-
 .single-coin {
   flex: 0 0 27%;
 }
@@ -551,13 +495,10 @@ button:focus {
   top: 44%;
   left: 59%;
 }
-
 /*=========== Hold ECM Section  =============*/
-
 .hold-ecm-area {
   position: relative;
 }
-
 .single-hold-ecm {
   padding: 40px;
   border-radius: 30px;
@@ -569,11 +510,9 @@ button:focus {
 /* .single-hold-ecm:hover {
   border: 1px solid #fd9e04;
 } */
-
 .single-hold-ecm-1 {
   background: url(../images/hold/1.png) no-repeat scroll center center / 100% 100%;
 }
-
 .single-hold-ecm-2 {
   background: url(../images/hold/2.png);
   background-size: 100% 100%;
@@ -581,7 +520,6 @@ button:focus {
   /* clip-path: polygon(50% 0%, 100% 0, 100% 89%, 52% 89%, 43% 100%, 0 100%, 0 0); */
   position: relative;
 }
-
 /* .single-hold-ecm-2::after {
   content: "";
   position: absolute;
@@ -593,7 +531,6 @@ button:focus {
   z-index: 99;
   transform: rotate(135deg);
 }
-
 .single-hold-ecm-2::before {
   content: "";
   position: absolute;
@@ -656,7 +593,6 @@ button:focus {
 .web3-area {
   position: relative;
 }
-
 .single-web3 {
   background: #ffffff14;
   border-radius: 30px;
@@ -665,7 +601,6 @@ button:focus {
   padding-bottom: 50px;
   position: relative;
 }
-
 .web3-btn a::after {
   content: "";
   position: absolute;
@@ -677,7 +612,6 @@ button:focus {
   mask: radial-gradient(circle 40px at top left, transparent 39px, black 40px);
   background: #090805;
 }
-
 .web3-btn a::before {
   content: "";
   position: absolute;
@@ -698,7 +632,6 @@ button:focus {
   position: relative;
   z-index: 9999;
 }
-
 .web3-btn::after {
   content: "";
   position: absolute;
@@ -710,7 +643,6 @@ button:focus {
   height: 62px;
   border-radius: 30px 0 30px 0;
 }
-
 .web3-h5 {
   color: #fd9e03 !important;
 }
@@ -752,7 +684,6 @@ button:focus {
   width: 100%;
   max-width: 320px;
 }
-
 /*=============  start Token Section  =============*/
 .token-area {
   padding-top: 350px;
@@ -862,7 +793,6 @@ button:focus {
   padding-bottom: 40px;
 }
 .form-label {
-  font-family: Poppins;
   font-weight: 600;
   font-size: 24px;
   line-height: 120%;
@@ -870,7 +800,6 @@ button:focus {
   padding-bottom: 16px;
 }
 .form-control {
-  font-family: Poppins;
   font-weight: 400;
   font-size: 18px;
   line-height: 120%;
@@ -891,9 +820,7 @@ button:focus {
   background-color: rgba(255, 255, 255, 0.1);
   color: #fff;
 }
-
 /*=============  start slider Section  =============*/
-
 .banner-text-top {
   font-weight: 400;
   font-size: 18px;
@@ -951,8 +878,7 @@ button:focus {
   border: 5px solid #fd9e03;
   border-radius: 40px;
 }
-
-.slider-icon-wrapper {
+.slider-icon-wrapper{
   width: 97px;
   height: auto;
   display: -webkit-box;
@@ -967,7 +893,7 @@ button:focus {
   margin: 0 auto;
   position: relative;
 }
-.slider-icon img {
+.slider-icon img{
   width: 30px;
   height: 30px;
   -o-object-fit: contain;
@@ -979,7 +905,6 @@ button:focus {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-
 .slider-item-title {
   font-weight: 600;
   font-size: 20px;
@@ -1020,7 +945,6 @@ button:focus {
   font-size: 25px !important;
   background-color: #000 !important;
 }
-
 .slider-area .owl-next {
   right: 320px;
   position: absolute;
@@ -1043,7 +967,6 @@ button:focus {
   z-index: 9;
   background-color: #000 !important;
 }
-
 .slider-area .owl-nav::after {
   content: "";
   position: absolute;
@@ -1054,7 +977,6 @@ button:focus {
   background-color: rgba(255, 255, 255, 0.1) !important;
   z-index: -3;
 }
-
 .slider-area .owl-next img {
   height: 20px;
   width: auto;
@@ -1585,12 +1507,10 @@ button:focus {
 .crypto-img {
   transform: translateY(-400px);
 }
-
 /* Animate class added by JS after 2s */
 .crypto-img.animate {
   animation: jumpIn 0.8s ease-out forwards;
 }
-
 /* Jump + fade-in animation */
 @keyframes jumpIn {
   0% {
@@ -1728,20 +1648,20 @@ section.policy-area.section-padding {
   line-height: 160%;
   color: rgba(255, 255, 255, 0.8);
 }
-.policy-list {
+.single-item-policy ul{
   display: flex;
   flex-direction: column;
   gap: 16px;
   padding: 12px 0;
   padding-left: 24px;
 }
-.policy-list li {
+.single-item-policy ul li {
   color: rgba(255, 255, 255, 0.8);
   position: relative;
   font-size: 18px;
   line-height: 160%;
 }
-.policy-list li::after {
+.single-item-policy ul li::after {
   content: "";
   position: absolute;
   top: 5px;
@@ -1751,7 +1671,7 @@ section.policy-area.section-padding {
   border-radius: 50%;
   background: #fd9e03;
 }
-.policy-list li span {
+.single-item-policy ul li span {
   display: block;
 }
 .policy-link-mail {
@@ -1849,7 +1769,6 @@ section.policy-area.section-padding {
   text-align: center;
   box-sizing: border-box;
 }
-
 .partnership-img h3 {
   font-size: 35px;
   margin-bottom: 6px;
@@ -1904,7 +1823,7 @@ section.policy-area.section-padding {
 }
 .content-error-shape-5 {
   position: absolute;
-  bottom: 88px;
+  bottom: 88px; 
   left: 421px;
 }
 .content-error-shape-6 {
@@ -1986,8 +1905,6 @@ section.policy-area.section-padding {
 }
 
 /* Contact Page CSS  */
-
-
 .contact-form-area {
 	background: #FFFFFF1A;
 	border-radius: 10px;
@@ -1995,18 +1912,15 @@ section.policy-area.section-padding {
 	z-index: 999;
 	position: relative;
 }
-
 .contact-heading{
   font-size: 40px;
 }
-
 .form-info {
 	height: 100%;
 	background: #090805;
 	padding: 40px;
 	border-radius: 10px;
 }
-
 .form-list a {
 	font-weight: 400;
 	font-size: 16px;
@@ -2017,9 +1931,6 @@ section.policy-area.section-padding {
 	align-items: flex-start;
 	gap: 12px;
 }
-
- 
-
 .form-list li a:hover {
   color: #fd9e03;
 }
@@ -2087,7 +1998,6 @@ section.policy-area.section-padding {
   overflow: hidden;
   z-index: 99;
 }
-
 .contact-circle-shape{
   border-radius: 100%;
   width: 138px;
@@ -2098,7 +2008,6 @@ section.policy-area.section-padding {
   bottom: 61px;
   z-index: -9;
 }
-
 .contact-circle-corner{
   border-radius: 100%;
   width: 269px;
@@ -2109,7 +2018,6 @@ section.policy-area.section-padding {
   bottom: -96px;
   z-index: -9;
 }
-
 .form-list i {
   margin-top: 5px;
 }
