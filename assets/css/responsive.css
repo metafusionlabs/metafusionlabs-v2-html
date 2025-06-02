@@ -1,4 +1,3 @@
-
 @media all and (max-width: 1400px) {
   .nav-a {
     font-size: 16px;
@@ -43,7 +42,6 @@
   }
 }
 @media all and (max-width: 1199px) {
- 
   .hero-crypto-img img {
     width: 100%;
   }
@@ -268,12 +266,12 @@
 
   .mission-img-area {
     position: absolute;
-    height: 100%; 
+    height: 100%;
     width: 100%;
     top: 0;
     left: 0;
   }
-  .mission-content {  
+  .mission-content {
     margin: 0 0;
   }
   .Vision-area,
@@ -292,7 +290,7 @@
     margin-top: 50px;
   }
   .content-404 h1 {
-    font-size: 210px; 
+    font-size: 210px;
   }
   .content-404 img {
     width: 160px;
@@ -303,7 +301,7 @@
   .content-error-shape-3 {
     left: 86px;
   }
-  .mission-img:after{
+  .mission-img:after {
     content: "";
     position: absolute;
     left: 0;
@@ -334,12 +332,12 @@
   }
   .mission-img-area.about-main-hero {
     position: inherit;
-    display: block
+    display: block;
   }
   .mission-img.header-hero-about::after {
     position: inherit;
   }
-  .common-paragraph { 
+  .common-paragraph {
     margin-left: 0;
   }
   .mission-area.section-padding {
@@ -358,10 +356,9 @@
     width: 55%;
     margin: 0 auto;
   }
-  .form-info { 
-    padding: 25px; 
+  .form-info {
+    padding: 25px;
   }
-  
 }
 
 @media all and (max-width: 767px) {
@@ -371,20 +368,20 @@
   .form-info {
     margin-bottom: 40px;
   }
-  .contact-form-main{
+  .contact-form-main {
     padding-bottom: 50px;
   }
-  .contact-circle-corner { 
+  .contact-circle-corner {
     width: 215px;
-    height: 215px; 
+    height: 215px;
   }
-  .contact-circle-shape { 
+  .contact-circle-shape {
     width: 110px;
-    height: 110px; 
+    height: 110px;
     right: 48px;
     bottom: 36px;
   }
-  .pagination { 
+  .pagination {
     margin-bottom: 25px;
   }
   .common-top-title {
@@ -736,7 +733,6 @@
     padding: 8px 0;
     padding-left: 24px;
   }
-
   .single-item-policy ul li::after {
     top: 9px;
   }
@@ -760,7 +756,6 @@
     width: 112px;
   }
 }
-
 @media all and (max-width: 450px) {
   .partnership-img h3 {
     font-size: 28px;
@@ -775,10 +770,13 @@
     transform: rotate(126deg);
     width: 21%;
   }
-  .hero-logo ul li a{
+  .hero-logo ul li a {
     text-align: center;
   }
-  .hero-logo ul li img { 
-    width: 70%; 
+  .hero-logo ul li img {
+    width: 70%;
   }
 }
+
+
+

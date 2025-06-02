@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
   // Run on scroll
   $(window).on("scroll", function () {
@@ -33,7 +32,7 @@ $(document).ready(function () {
     nav: false,
     autoplay: true,
     dots: false,
-    autoplayTimeout: 3000,  
+    autoplayTimeout: 3000,
     autoplayHoverPause: true,
     smartSpeed: 3000,
     navText: [
@@ -62,11 +61,13 @@ $(document).ready(function () {
       },
     },
   });
-
-  $(".owl-carousel").on("initialized.owl.carousel changed.owl.carousel refreshed.owl.carousel", function (event) {
-    setTimeout(function () {
-      $(".owl-item").removeClass("first-active-item");
-      $(".owl-item.active").first().addClass("first-active-item");
-    }, 100);
-  });
+  $(".owl-carousel").on(
+    "initialized.owl.carousel changed.owl.carousel refreshed.owl.carousel",
+    function (event) {
+      setTimeout(function () {
+        $(".owl-item").removeClass("first-active-item");
+        $(".owl-item.active").first().addClass("first-active-item");
+      }, 100);
+    }
+  );
 });
