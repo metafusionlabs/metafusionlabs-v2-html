@@ -2172,7 +2172,6 @@ section.policy-area.section-padding {
     100% 86.96%
   );
 }
-
 .single-hold-ecm::after {
   content: "";
   position: absolute;
@@ -2192,7 +2191,6 @@ section.policy-area.section-padding {
   );
   display: block;
 }
-
 .single-hold-ecm-4 {
   background: linear-gradient(
       to top,
