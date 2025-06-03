@@ -2440,3 +2440,15 @@ section.policy-area.section-padding {
 }
 
 /* ecm earth animation  end*/
+.animated-cube {
+  animation: glowPulse 2s infinite;
+}
+
+@keyframes glowPulse {
+  0%, 100% {
+    filter: drop-shadow(0 0 4px #ff9900);
+  }
+  50% {
+    filter: drop-shadow(0 0 12px #ff9900);
+  }
+}
