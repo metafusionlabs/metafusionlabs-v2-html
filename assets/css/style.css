@@ -2099,7 +2099,7 @@ section.policy-area.section-padding {
       rgba(253, 158, 4, 0.3),
       #090805
     ),
-    url(../images/hold/1.png) no-repeat scroll center center / cover;
+    url(../images/hold/2.png) no-repeat scroll center center / cover;
 }
 .hold-container:hover .single-hold-ecm-2 {
   background: linear-gradient(
@@ -2108,7 +2108,7 @@ section.policy-area.section-padding {
       rgba(253, 158, 4, 0.4),
       #090805
     ),
-    url(../images/hold/1.png) no-repeat scroll center center / cover;
+    url(../images/hold/2.png) no-repeat scroll center center / cover;
 }
 
 .single-hold-ecm-3 {
