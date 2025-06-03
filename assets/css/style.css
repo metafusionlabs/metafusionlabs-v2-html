@@ -162,7 +162,7 @@ p {
   position: relative;
   padding: 12px 24px;
   border-radius: 10px;
-  background: #3d3d3c;
+  background: #FD9E03;
   font-weight:400;
   font-size: 18px;
   color: #fff;
@@ -171,6 +171,12 @@ p {
   display: inline-block;
   transition: 0.3s;
 }
+.btn-list li:last-child a.btn-1{
+  background-color: #3D3D3C;
+}
+.btn-list li:last-child a.btn-1:hover{
+  background: #FD9E03;
+}
 .btn-1 img {
   position: absolute;
   top: -49px;
@@ -178,11 +184,14 @@ p {
   transition: all 0.3s ease;
   right: 0;
   margin: auto;
+  opacity: 0;
 }
 .btn-1:hover {
+  background-color:#3D3D3C;
   color: #fff;
 }
 .btn-1:hover img {
+  opacity: 1;
   animation: slideLeftRight 1s forwards;
 }
 @keyframes slideLeftRight {
@@ -397,16 +406,7 @@ button:focus {
   top: 85px;
   left: 60px;
 }
-.about-shape-left {
-  position: absolute;
-  width: 293px;
-  height: 293px;
-  background: rgba(253, 158, 3, 0.7);
-  z-index: -2;
-  filter: blur(145px);
-  left: 0;
-  top: 0;
-}
+ 
 
 /*===========  Blockchain Section  =============*/
 
@@ -432,10 +432,11 @@ button:focus {
   position: relative;
 }
 .ecm-coin-content {
-  padding: 100px 128px 200px 128px;
+  padding: 100px;
   background: #151411;
   border-radius: 30px;
   position: relative;
+  padding-bottom: 160px;
   clip-path: polygon(50% 0%, 100% 0, 100% 89%, 52% 89%, 43% 100%, 0 100%, 0 0);
 }
 .single-coin {
@@ -480,33 +481,7 @@ button:focus {
 .hold-ecm-area {
   position: relative;
 }
-.single-hold-ecm {
-  padding: 40px;
-  border-radius: 30px;
-  height: 544px;
-  transition: 0.3s;
-}
 
-.single-hold-ecm-1 {
-  background: url(../images/hold/1.png) no-repeat scroll center center / 100% 100%;
-}
-.single-hold-ecm-2 {
-  background: url(../images/hold/2.png);
-  background-size: 100% 100%;
-  background-position: center center;
-  /* clip-path: polygon(50% 0%, 100% 0, 100% 89%, 52% 89%, 43% 100%, 0 100%, 0 0); */
-  position: relative;
-}
- 
-.single-hold-ecm-3 {
-  background: url(../images/hold/3.png) no-repeat scroll center center / 100% 100%;
-}
-.single-hold-ecm-4 {
-  background: url(../images/hold/4.png) no-repeat scroll center center / 100% 100%;
-  /* clip-path: polygon(38% 0, 100% 0, 100% 100%, 56% 100%, 0 100%, 0 11.3%, 26% 11%); */
-  padding-top:100px;
-  position: relative;
-}
 .hold-btn {
   display: flex;
   align-items: center;
@@ -518,78 +493,51 @@ button:focus {
 .web3-area {
   position: relative;
 }
+.web3-btn{
+  position: absolute;
+  right: 20px;
+  top: 80px;
+}
 .single-web3 {
-  background: #ffffff14;
-  border-radius: 30px;
-  padding: 40px 42px;
-  height: 100%;
-  padding-bottom: 50px;
-  position: relative;
+    background: #FFFFFF1A;
+    border-radius: 30px;
+    padding:30px 32px;
+    /* height: 100%; */
+    border: 2px solid transparent;
+    position: relative;
 }
-.web3-btn a::after {
-  content: "";
-  position: absolute;
-  width: 47px;
-  height: 47px;
-  bottom: -7px;
-  right: 100%;
-  -webkit-mask: radial-gradient(circle 40px at top left, transparent 39px, black 40px);
-  mask: radial-gradient(circle 40px at top left, transparent 39px, black 40px);
-  background: #090805;
-}
-.web3-btn a::before {
-  content: "";
-  position: absolute;
-  width: 40px;
-  height: 47px;
-  bottom: 105%;
-  right: 0;
-  -webkit-mask: radial-gradient(circle 40px at top left, transparent 45px, black 40px);
-  mask: radial-gradient(circle 40px at top left, transparent 45px, black 40px);
-  background: #090805;
-}
-.web3-btn {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-.web3-btn a {
-  position: relative;
-  z-index: 9999;
-}
-.web3-btn::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: -9px;
-  z-index: 999;
-  background-color: #090805;
-  width: 104%;
-  height: 62px;
-  border-radius: 30px 0 30px 0;
+.single-web3:hover{
+  background: linear-gradient(360deg, rgba(253, 158, 4, 0.3) 0%, #090805 100%);
+  border-color: #fc9f06;
 }
 .web3-h5 {
   color: #fd9e03 !important;
 }
+.single-web-hide-content{
+  display: none;
+  transition: 1s;
+}
+.single-web3:hover .single-web-hide-content{
+  display: block;
+  transition: 1s;
+}
 .color-fd9 {
   color: #fd9e03;
 }
-.web3-btn {
-  text-align: end;
-}
+
 .footer-text a:hover {
   color: #fff;
 }
 .btn-2 {
-  background: #3d3d3c;
-  padding: 12px 47px;
-  border-radius: 30px;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 160%;
-  color: #fff;
-  display: inline-block;
-  transition: 0.3s;
+    background: #3d3d3c;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: #fff;
+    display: inline-block;
+    transition: 0.3s;
 }
 
 .btn-2:hover {
@@ -1397,11 +1345,23 @@ button:focus {
   opacity: 0.5;
   filter: blur(110px);
 }
-.eco-system-logo {
+.ellipse-6 {
+  left: -2%;
+  top: -8%;
+  opacity: 0.5;
+  filter: blur(110px);
+}
+.ellipse-7 {
+  right: -4%;
+  bottom: -8%;
+  opacity: 0.5;
+  filter: blur(110px);
+}
+/* .eco-system-logo {
   position: absolute;
   right: 20px;
   top: 24px;
-}
+} */
 .footer-area:after {
   content: "";
   position: absolute;
@@ -1943,4 +1903,225 @@ section.policy-area.section-padding {
       z-index: 1;
       display: block;
     }
+ /* .web3-content:after{
+  content:"";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+   transform: translateY(-50%);
+   margin: 0 auto;
+   z-index: -2;
+   background: url('../images/shape/star.png');
+   height: 100%;
+   width: 100%;
+   background-size:cover;
+ } */
+  .star-effect img{
+    width: 60%;
+  }
+  .star-effect{
+    position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+   transform: translateY(-50%);
+   margin: 0 auto;
+   z-index: -2;
+  }
+  /* .web3-content:hover .star-effect{
+    transition: 10s;
+    transform: rotate(360deg);
+  } */
+  .rotate-box {
+    animation: rotate360 80s linear infinite;
+}
+@keyframes rotate360{
+0% {
+    transform: rotate(0);
+}
+
+100% {
+    transform: rotate(360deg);
+}
+}
+.step-item p{
+  font-size: 26px;
+  font-weight: 500;
+  color:#fff;
+  margin-top: 20px;
+  line-height:35px;
+}
+.step-item span{
+  height:64px;
+  width: 64px;
+  backdrop-filter: blur(20px);
+  display: flex;
+  justify-content: center;
+  font-size:30px;
+  color:#fff;
+  font-weight: 600;
+  border-radius: 50%;
+  overflow: hidden;
+  align-items: center;
+  box-shadow: 0px -5px 10px 0px #FD9E04 inset;
+
+}
+.step-item{
+  border: 1px solid #FFFFFF1A;
+  backdrop-filter: blur(20px);
+  background: #FFFFFF0A;
+  padding: 25px;
+  border-radius: 30px;
+}
+.step-item:hover{
+  border-color: #fc9f06;
+  background: linear-gradient(360deg, rgba(253, 158, 4, 0.3) 0%, #090805 100%);
+}
+.launchpad-info-shape{
+  background: linear-gradient(180deg, #FD9E04 0%, #FFFFFF 100%);
+  height: 12px;
+  width: 12px;
+  margin-right: 30px;
+  transform: rotate(45deg);
+  margin-top:15px;
  
+}
+.launchpad-info-content p{
+  color: #FFFFFFA1;
+  font-size: 18px;
+}
+.launchpad-info-content h6{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%;
+  color:#fff;
+  margin-bottom: 22px;
+}
+.launchpad-info-item{
+  padding-bottom: 40px;
+  position: relative;
+}
+.launchpad-info-item:before{
+  content:"";
+  position: absolute;
+  left:4px;
+  top:4px;
+  height: 100%;
+  width: 2px;
+  background: linear-gradient(180deg, rgba(9, 8, 5, 0.12) 0%, rgba(253, 158, 4, 0.12) 50%, rgba(9, 8, 5, 0.12) 100%);
+}
+ .ptb-100{
+  padding: 100px 0;
+ }
+ /* Update shape code start  */
+
+.single-hold-ecm-1 {
+  background: linear-gradient(to top, #0908054e, rgba(253, 158, 4, 0.3), #090805),
+    url(../images/hold/1.png) no-repeat scroll center center / cover;
+ 
+}
+.single-hold-ecm-1:hover {
+  background: linear-gradient(to top, rgba(253, 158, 4, 0.5), rgba(253, 158, 4, 0.4), #090805),
+    url(../images/hold/1.png) no-repeat scroll center center / cover;
+}
+
+.single-hold-ecm-2 {
+  background: linear-gradient(to top, #0908054c, rgba(253, 158, 4, 0.3), #090805),
+    url(../images/hold/2.png) no-repeat scroll center center / cover;
+}
+.single-hold-ecm-2:hover {
+  background: linear-gradient(to top, rgba(253, 158, 4, 0.5), rgba(253, 158, 4, 0.4), #090805),
+    url(../images/hold/2.png) no-repeat scroll center center / cover;
+}
+
+.single-hold-ecm-3 {
+  background: linear-gradient(to top, #0908054c, rgba(253, 158, 4, 0.3), #090805),
+    url(../images/hold/3.png) no-repeat scroll center center / cover;
+}
+.single-hold-ecm-3:hover {
+  background: linear-gradient(to top, rgba(253, 158, 4, 0.5), rgba(253, 158, 4, 0.4), #090805),
+    url(../images/hold/3.png) no-repeat scroll center center / cover;
+}
+
+.single-hold-ecm {
+  padding: 40px;
+  min-height: 544px;
+  transition: 0.3s;
+  border: 3px solid #3d3d3ccc;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.single-hold-ecm:hover {
+  border: 3px solid #fd9e04;
+  clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 34.6% 100%, 47.1% 86.96%, 100% 86.96%);
+}
+
+.single-hold-ecm::before {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  background: #fd9e0471;
+  z-index: -1;
+}
+.single-hold-ecm:hover::before {
+  background: #fd9e04;
+  clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 34.6% 100%, 47.1% 86.96%, 100% 86.96%);
+}
+
+.single-hold-ecm::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: inherit;
+  z-index: -1;
+}
+.single-hold-ecm:hover::after {
+  clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 34.4% 100%, 46.8% 86.96%, 100% 86.96%);
+}
+
+.single-hold-ecm-4 {
+  background: linear-gradient(to top, #0908054c, rgba(253, 158, 4, 0.3), #090805),
+    url(../images/hold/4.png) no-repeat scroll center center / cover;
+  padding: 40px;
+  min-height: 544px;
+  transition: 0.3s;
+  border: 3px solid #3d3d3ccc;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+  padding-top: 90px;
+}
+.single-hold-ecm-4:hover {
+  border: 3px solid #fd9e04;
+  clip-path: polygon(100% 100%, 0% 100%, 0% 13.55%, 23.09% 13.55%, 35.5% 0%, 100% 0%);
+  background: linear-gradient(to top, rgba(253, 158, 4, 0.5), rgba(253, 158, 4, 0.4), #090805),
+    url(../images/hold/3.png) no-repeat scroll center center / cover;
+}
+
+.single-hold-ecm-4::before {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  background: #fd9e0471;
+  z-index: -1;
+}
+.single-hold-ecm-4:hover::before {
+  background: #fd9e04;
+  clip-path: polygon(100% 100%, 0% 100%, 0% 13.55%, 23.09% 13.55%, 35.5% 0%, 100% 0%);
+}
+
+.single-hold-ecm-4::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: inherit;
+  z-index: -1;
+}
+
+.single-hold-ecm-4:hover::after {
+  clip-path: polygon(100% 100%, 0% 100%, 0% 13.55%, 23.09% 13.55%, 35.5% 0%, 100% 0%);
+}
+
+/* Update shape code End  */

@@ -18,15 +18,6 @@
   p {
     font-size: 16px;
   }
-  .single-hold-ecm-4::after {
-    left: 73px;
-    transform: rotate(125deg);
-  }
-  .single-hold-ecm-2::after {
-    width: 14.5%;
-    left: 40%;
-    transform: rotate(130deg);
-  }
   .font-20 {
     max-width: 298px;
   }
@@ -61,11 +52,6 @@
   }
   .hold-btn .btn-1 {
     font-size: 14px;
-  }
-  .single-hold-ecm-2::after {
-    width: 15.5%;
-    left: 39%;
-    transform: rotate(126deg);
   }
   .token-item {
     max-width: 533px;
@@ -359,9 +345,29 @@
   .form-info {
     padding: 25px;
   }
+   .single-hold-ecm-4,
+  .single-hold-ecm {
+    padding: 30px;
+    min-height: 446px;
+  }
+  .single-hold-ecm-4 {
+    padding-top: 70px;
+  }
+  .step-item p {
+    font-size: 18px;
+    line-height: 28px;
+}
+.ecm-coin-content {
+    padding: 100px 15px;
+  }
 }
 
 @media all and (max-width: 767px) {
+  .step-item span {
+    height: 40px;
+    width: 40px;
+    font-size: 15px;
+  }
   /* .single-coin {
     width: 100%;
   } */
@@ -396,11 +402,6 @@
   .hero-header-title,
   .common-heading {
     font-size: 31px;
-  }
-  .single-hold-ecm-2::after {
-    width: 15.5%;
-    left: 39.5%;
-    transform: rotate(128deg);
   }
   .single-hold-ecm {
     border-radius: 15px;
@@ -463,12 +464,6 @@
   .single-hold-ecm {
     border-radius: 15px;
     background-size: cover;
-  }
-  .single-hold-ecm-4::before,
-  .single-hold-ecm-4.hero-crypto-text,
-  .single-hold-ecm-2::before,
-  .single-hold-ecm-2::after {
-    display: none;
   }
 
   .about-content {
@@ -682,14 +677,6 @@
   p {
     font-size: 14px;
   }
-  .single-hold-ecm-2::after {
-    transform: rotate(124deg);
-  }
-  .single-hold-ecm-4::after {
-    left: 23%;
-    transform: rotate(133deg);
-    width: 18%;
-  }
   .banner-heading-text {
     font-size: 35px;
   }
@@ -759,16 +746,6 @@
 @media all and (max-width: 450px) {
   .partnership-img h3 {
     font-size: 28px;
-  }
-  .single-hold-ecm-2::after {
-    transform: rotate(118deg);
-    width: 19.5%;
-    left: 37.5%;
-  }
-  .single-hold-ecm-4::after {
-    left: 22%;
-    transform: rotate(126deg);
-    width: 21%;
   }
   .hero-logo ul li a {
     text-align: center;
