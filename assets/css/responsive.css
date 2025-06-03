@@ -361,8 +361,10 @@
     padding: 100px 15px;
   }
 }
-
 @media all and (max-width: 767px) {
+  .about-ecm-coin img {
+    max-width: 167px;
+}
   .step-item span {
     height: 40px;
     width: 40px;

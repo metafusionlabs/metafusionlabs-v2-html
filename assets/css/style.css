@@ -2125,3 +2125,131 @@ section.policy-area.section-padding {
 }
 
 /* Update shape code End  */
+
+/* ecm earth animation  start*/
+.about-shape {
+        position: relative;
+    }
+    .about-bitcoin-img {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        max-width:400px;
+        margin: 0 auto;
+    }
+    .about-ecm-coin img{
+      max-width:187px;
+    }
+    .about-ecm-coin {
+        position: absolute;
+        top: 24%;
+        left: 4%;
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .about-shape span {
+        display: block;
+        border: 2px solid;
+        border-image-source: linear-gradient(355.03deg, #FD9E03 -0.35%, #090805 101.78%);
+        border-image-slice: 1;
+        border-image-repeat: stretch;
+        position: absolute;
+        width: 50%;
+        z-index: -9;
+    }
+    .about-line-one {
+        top: 37%;
+        left: 0;
+        transform: rotate(4deg);
+    }
+    .about-line-two {
+        top: 56%;
+        left: 0;
+        transform: rotate(0);
+    }
+    .about-line-three {
+        top: 75%;
+        left: 0;
+        transform: rotate(-4deg);
+    }
+    .about-line-four {
+        top: 37%;
+        right: 0;
+        transform: rotate(-4deg);  
+        border-image-source: linear-gradient(355.03deg, #090805 -0.35%, #FD9E03 101.78%) !important; 
+    }
+    .about-line-five {
+        top: 56%;
+        right: 0;
+        transform: rotate(0);
+        border-image-source: linear-gradient(355.03deg, #090805 -0.35%, #FD9E03 101.78%) !important; 
+    }
+    .about-line-six {
+        top: 75%;
+        right: 0;
+        transform: rotate(4deg);
+        border-image-source: linear-gradient(355.03deg, #090805 -0.35%, #FD9E03 101.78%) !important; 
+    }
+
+    /* .about-bitcoin-img > img  {
+        animation: rotateAnim 3s linear infinite;
+    } */
+
+    @keyframes rotateAnim {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    /* Ball style */
+    .about-shape .ball {
+        position: absolute;
+        top: -6px;
+        width: 12px;
+        height: 12px;
+        background-color: #FD9E03;
+        border-radius: 50%;
+        animation: moveBall 8s linear infinite;
+    }
+    .about-line-four .ball ,
+    .about-line-five .ball ,
+    .about-line-six .ball { 
+        animation: moveBallRight 8s linear infinite;
+    }
+
+    /* Delay each ball inside spans for nice effect */
+    .about-shape span .ball:nth-child(1) {
+        animation-delay: 0s;
+    }
+    .about-shape span .ball:nth-child(2) {
+        animation-delay: 0.5s;
+    }
+    .about-shape span .ball:nth-child(3) {
+        animation-delay: 1s;
+    }
+    .about-shape span .ball:nth-child(4) {
+        animation-delay: 1.5s;
+    }
+
+    /* Ball movement */
+    @keyframes moveBall {
+        0% {
+            left: 0%;
+        }
+        100% {
+            left: 100%;
+        }
+    }
+    @keyframes moveBallRight {
+        0% {
+            right: 0%;
+        }
+        100% {
+            right: 100%;
+        }
+    }
+
+/* ecm earth animation  end*/
