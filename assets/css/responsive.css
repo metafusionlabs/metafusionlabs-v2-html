@@ -99,6 +99,9 @@
   .mobile-none {
     display: none;
   }
+  .blog-area-padding-bottom {
+    padding-bottom: 140px;
+  }
   .single-web3 {
     padding-bottom: 70px;
   }

@@ -90,6 +90,9 @@ a {
 .mb-28 {
   margin-bottom: 28px;
 }
+.mb-40 {
+  margin-bottom: 40px;
+}
 .mb-60 {
   margin-bottom: 60px;
 }
@@ -507,7 +510,7 @@ button:focus {
 .web3-btn {
   position: absolute;
   right: 20px;
-  top: 80px;
+  top: 8px;
 }
 .single-web3 {
   background: #ffffff1a;
@@ -2449,4 +2452,15 @@ section.policy-area.section-padding {
   50% {
     filter: drop-shadow(0 0 12px #ff9900);
   }
+}
+
+
+
+/* Blog Page area */   
+.blog-area-padding-bottom {
+  padding-bottom: 366px;
+}
+
+.blog-item h5 {
+  font-weight: 400 !important;
 }
