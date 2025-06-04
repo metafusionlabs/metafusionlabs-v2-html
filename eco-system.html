@@ -26,26 +26,34 @@
     <body> 
         <!--=====================  Start Header Area  ====================-->
         <header class="header-area">
-            <div class="container"> 
-                <div class="d-flex align-items-center justify-content-between header">
-                    <div class="logo">
-                        <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
-                        <button class="mobile-bars"><i class="fa-solid fa-bars-staggered"></i></button>
-                    </div>
-                    <div class="nav">
-                        <ul class="d-flex flex-lg-row flex-column align-items-center gx-4">
-                            <li><a class="nav-a" href="index.html">Home</a></li>
-                            <li><a class="nav-a" href="about-us.html">About</a></li>
-                            <li><a class="nav-a" href="ecm-coin.html">ECM Coin</a></li>
-                            <li><a class="nav-a active" href="eco-system.html">Ecosystem</a></li>
-                            <li class="desktop-none"><a href="#" class="btn-1">Contact Us <img src="assets/images/hero/btn-1-shape.png" alt=""></a></li>
-                        </ul>
-                    </div>
-                    <div class="header-btn mobile-none">
-                        <a href="#" class="btn-1">Contact Us <img src="assets/images/hero/btn-1-shape.png" alt=""></a>
-                    </div>
-                </div>
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between header">
+            <div class="logo">
+                <a href="index.html"><img src="assets/images/logo.png" alt="logo" /></a>
+                <button class="mobile-bars"><i class="fa-solid fa-bars-staggered"></i></button>
             </div>
+            <div class="nav">
+                <ul class="d-flex flex-lg-row flex-column align-items-center gx-4">
+                <li><a class="nav-a" href="index.html">Home</a></li>
+                <li><a class="nav-a" href="about-us.html">About</a></li>
+                <li><a class="nav-a" href="ecm-coin.html">ECM Coin</a></li>
+                <li><a class="nav-a active" href="eco-system.html">Ecosystem</a></li>
+                <li class="desktop-none">
+                    <a href="contact.html" class="btn-1">
+                    Contact Us
+                    <img src="assets/images/hero/btn-1-shape.png" alt="" />
+                    </a>
+                </li>
+                </ul>
+            </div>
+            <div class="header-btn mobile-none">
+                <a href="contact.html" class="btn-1">
+                Contact Us
+                <img src="assets/images/hero/btn-1-shape.png" alt="" />
+                </a>
+            </div>
+            </div>
+        </div>
         </header>
         <!--=====================  End Header Area  ====================-->
 
@@ -154,7 +162,7 @@
                                         </h2>
                                     </div>
                                 </div>
-                                <p class="common-paragraph text-center">The ECM Ecosystem brings together a suite of interconnected platforms designed to accelerate blockchain adoption across commerce, finance, gaming, and community governance. Each component plays a strategic role in driving real-world use of the ECM Coin and strengthening the utility of the entire network.</p>
+                                <p class="common-paragraph text-center mlr-0">The ECM Ecosystem brings together a suite of interconnected platforms designed to accelerate blockchain adoption across commerce, finance, gaming, and community governance. Each component plays a strategic role in driving real-world use of the ECM Coin and strengthening the utility of the entire network.</p>
                             </div> 
                         </div> 
                     </div>
@@ -452,28 +460,6 @@
         <script src="assets/js/modernizr-3.11.2.min.js"></script> 
         <!-- Custom JS (Handed)-->
         <script src="assets/js/scripts.js"></script>
-        <script>
-            const areas = document.querySelectorAll(".particle-area");
-
-            areas.forEach((area) => {
-            area.style.position = "relative";
-
-            const numParticles = parseInt(area.getAttribute("data-particles")) || 30;
-
-            for (let i = 0; i < numParticles; i++) {
-                const particle = document.createElement("div");
-                particle.classList.add("particle");
-
-                particle.style.left = Math.random() * 100 + "%";
-                particle.style.top = 80 + Math.random() * 20 + "%";
-
-                const duration = 4 + Math.random() * 4;
-                const delay = Math.random() * 5;
-                particle.style.animationDuration = `${duration}s`;
-                particle.style.animationDelay = `${delay}s`;
-                area.appendChild(particle);
-            }
-            });
-        </script>
+       
     </body>
 </html> 
