@@ -608,7 +608,7 @@
           </p>
         </div>
         <div class="footer-companyname">
-          <p class="company-name">MetaFusionLabs</p>
+          <p class="company-name">Meta Fusion Labs</p>
         </div>
       </div>
     </footer>
@@ -644,7 +644,41 @@
         }
       });
     </script>
-   
-   
+    <script>
+      const listItems = document.querySelectorAll(".hero-logo ul li");
+      const heroLogoSection = document.querySelector(".hero-logo");
+      let intervalId = null;
+      let hasStarted = false;
+      function highlightRandomItem() {
+        // Clear all first
+        listItems.forEach((li) => li.classList.remove("active"));
+        // Choose a random one
+        const randomIndex = Math.floor(Math.random() * listItems.length);
+        listItems[randomIndex].classList.add("active");
+      }
+      // Observe when .hero-logo enters the viewport
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting && !hasStarted) {
+              hasStarted = true;
+              highlightRandomItem();
+              intervalId = setInterval(highlightRandomItem, 1500);
+            }
+          });
+        },
+        {
+          threshold: 0.3,
+        }
+      );
+      observer.observe(heroLogoSection);
+    </script>
+    <script>
+      window.addEventListener("load", function () {
+        setTimeout(() => {
+          document.querySelector(".crypto-img").classList.add("animate");
+        }, 1200);
+      });
+    </script>
   </body>
 </html>

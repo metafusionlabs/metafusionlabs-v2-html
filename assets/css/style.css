@@ -497,11 +497,7 @@ button:focus {
 .web3-btn {
   position: absolute;
   right: 20px;
-<<<<<<< HEAD
-  top: 80px;
-=======
-  top: 15px;
->>>>>>> d1fe9bec61b1e572d06073778626a6b931ba4128
+  top: 112px;
 }
 .single-web3 {
   background: #ffffff1a;
@@ -2438,4 +2434,3 @@ section.policy-area.section-padding {
 .blog-item h5 {
   font-weight: 400 !important;
 }
-/* add */
