@@ -296,7 +296,11 @@ p {
   align-items: center;
   justify-content: center;
   border: 1px solid;
-  border-image-source: linear-gradient(177.02deg, #282522 20.88%, #000000 113.42%);
+  border-image-source: linear-gradient(
+    177.02deg,
+    #282522 20.88%,
+    #000000 113.42%
+  );
   border-image-slice: 1;
   background-color: transparent;
   transition: background-color 1s ease;
@@ -314,7 +318,12 @@ p {
 .border-middle {
   border: 1px solid;
   display: block;
-  border-image-source: linear-gradient(270deg, #000000 0%, #282522 47.6%, #000000 100%);
+  border-image-source: linear-gradient(
+    270deg,
+    #000000 0%,
+    #282522 47.6%,
+    #000000 100%
+  );
   border-image-slice: 1;
   width: 100%;
   position: absolute;
@@ -334,7 +343,11 @@ p {
   display: block;
   width: 134px;
   height: 766px;
-  background: linear-gradient(180deg, rgba(253, 208, 133, 0.3) 0%, rgba(253, 208, 133, 0) 91.67%);
+  background: linear-gradient(
+    180deg,
+    rgba(253, 208, 133, 0.3) 0%,
+    rgba(253, 208, 133, 0) 91.67%
+  );
   backdrop-filter: blur(60px);
   -webkit-backdrop-filter: blur(60px);
   border-radius: 50%;
@@ -802,7 +815,8 @@ button:focus {
   padding-top: 60px;
 }
 .slider-item {
-  background: url("../images/slider/slider.png") no-repeat scroll center top / cover;
+  background: url("../images/slider/slider.png") no-repeat scroll center top /
+    cover;
   padding: 48px 20px;
   border: 5px solid rgba(255, 255, 255, 0.1);
   text-align: center;
@@ -1201,18 +1215,21 @@ button:focus {
 }
 @keyframes glowShadow {
   0% {
-    text-shadow: 0px 0px 0 #000, 0px 0px 0px #000, -2px 3px 9px rgba(253, 158, 3, 0.3),
-      -6px 15px 17px rgba(253, 158, 3, 0.3), 3px 10px 10px rgba(253, 158, 3, 0.3);
+    text-shadow: 0px 0px 0 #000, 0px 0px 0px #000,
+      -2px 3px 9px rgba(253, 158, 3, 0.3), -6px 15px 17px rgba(253, 158, 3, 0.3),
+      3px 10px 10px rgba(253, 158, 3, 0.3);
   }
 
   50% {
-    text-shadow: 0px 0px 2px #000, 0px 0px 2px #000, 0px 0px 10px rgba(204, 127, 39, 0.4),
-      0px 0px 20px rgba(138, 82, 10, 0.4), 0px 0px 30px rgba(150, 111, 53, 0.4);
+    text-shadow: 0px 0px 2px #000, 0px 0px 2px #000,
+      0px 0px 10px rgba(204, 127, 39, 0.4), 0px 0px 20px rgba(138, 82, 10, 0.4),
+      0px 0px 30px rgba(150, 111, 53, 0.4);
   }
 
   100% {
-    text-shadow: 0px 0px 0 #000, 0px 0px 0px #000, 2px -3px 9px rgba(90, 49, 3, 0.4),
-      6px -15px 17px rgba(185, 125, 12, 0.4), -3px -10px 10px rgba(136, 86, 12, 0.4);
+    text-shadow: 0px 0px 0 #000, 0px 0px 0px #000,
+      2px -3px 9px rgba(90, 49, 3, 0.4), 6px -15px 17px rgba(185, 125, 12, 0.4),
+      -3px -10px 10px rgba(136, 86, 12, 0.4);
   }
 }
 
@@ -1222,7 +1239,11 @@ button:focus {
   position: absolute;
   width: 70px;
   height: 965px;
-  background: linear-gradient(180deg, rgba(253, 208, 133, 0.2) 0%, rgba(253, 208, 133, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(253, 208, 133, 0.2) 0%,
+    rgba(253, 208, 133, 0) 100%
+  );
   filter: blur(40px);
   z-index: 999;
 }
@@ -1240,7 +1261,11 @@ button:focus {
   position: absolute;
   width: 90px;
   height: 766px;
-  background: linear-gradient(180deg, rgba(253, 208, 133, 0.3) 0%, rgba(253, 208, 133, 0) 91.67%);
+  background: linear-gradient(
+    180deg,
+    rgba(253, 208, 133, 0.3) 0%,
+    rgba(253, 208, 133, 0) 91.67%
+  );
   filter: blur(30px);
   z-index: 999;
 }
@@ -2117,7 +2142,12 @@ section.policy-area.section-padding {
   top: 4px;
   height: 100%;
   width: 2px;
-  background: linear-gradient(180deg, rgba(9, 8, 5, 0.12) 0%, rgba(253, 158, 4, 0.12) 50%, rgba(9, 8, 5, 0.12) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(9, 8, 5, 0.12) 0%,
+    rgba(253, 158, 4, 0.12) 50%,
+    rgba(9, 8, 5, 0.12) 100%
+  );
 }
 .ptb-100 {
   padding: 100px 0;
@@ -2125,29 +2155,59 @@ section.policy-area.section-padding {
 /* Update shape code start  */
 
 .single-hold-ecm-1 {
-  background: linear-gradient(to top, #0908054e, rgba(253, 158, 4, 0.3), #090805),
+  background: linear-gradient(
+      to top,
+      #0908054e,
+      rgba(253, 158, 4, 0.3),
+      #090805
+    ),
     url(../images/hold/1.png) no-repeat scroll center center / cover;
 }
 .hold-container:hover .single-hold-ecm-1 {
-  background: linear-gradient(to top, rgba(253, 158, 4, 0.5), rgba(253, 158, 4, 0.4), #090805),
+  background: linear-gradient(
+      to top,
+      rgba(253, 158, 4, 0.5),
+      rgba(253, 158, 4, 0.4),
+      #090805
+    ),
     url(../images/hold/1.png) no-repeat scroll center center / cover;
 }
 
 .single-hold-ecm-2 {
-  background: linear-gradient(to top, #0908054c, rgba(253, 158, 4, 0.3), #090805),
+  background: linear-gradient(
+      to top,
+      #0908054c,
+      rgba(253, 158, 4, 0.3),
+      #090805
+    ),
     url(../images/hold/2.png) no-repeat scroll center center / cover;
 }
 .hold-container:hover .single-hold-ecm-2 {
-  background: linear-gradient(to top, rgba(253, 158, 4, 0.5), rgba(253, 158, 4, 0.4), #090805),
+  background: linear-gradient(
+      to top,
+      rgba(253, 158, 4, 0.5),
+      rgba(253, 158, 4, 0.4),
+      #090805
+    ),
     url(../images/hold/2.png) no-repeat scroll center center / cover;
 }
 
 .single-hold-ecm-3 {
-  background: linear-gradient(to top, #0908054c, rgba(253, 158, 4, 0.3), #090805),
+  background: linear-gradient(
+      to top,
+      #0908054c,
+      rgba(253, 158, 4, 0.3),
+      #090805
+    ),
     url(../images/hold/3.png) no-repeat scroll center center / cover;
 }
 .hold-container:hover .single-hold-ecm-3 {
-  background: linear-gradient(to top, rgba(253, 158, 4, 0.5), rgba(253, 158, 4, 0.4), #090805),
+  background: linear-gradient(
+      to top,
+      rgba(253, 158, 4, 0.5),
+      rgba(253, 158, 4, 0.4),
+      #090805
+    ),
     url(../images/hold/3.png) no-repeat scroll center center / cover;
 }
 
@@ -2162,7 +2222,14 @@ section.policy-area.section-padding {
 }
 .hold-container:hover .single-hold-ecm {
   border: 3px solid #fd9e04;
-  clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 34.6% 100%, 47.1% 86.96%, 100% 86.96%);
+  clip-path: polygon(
+    100% 0%,
+    0% 0%,
+    0% 100%,
+    34.6% 100%,
+    47.1% 86.96%,
+    100% 86.96%
+  );
   display: block;
 }
 
@@ -2177,7 +2244,14 @@ section.policy-area.section-padding {
 .hold-container:hover .single-hold-ecm::before {
   background: #fd9e04;
   display: block;
-  clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 34.6% 100%, 47.1% 86.96%, 100% 86.96%);
+  clip-path: polygon(
+    100% 0%,
+    0% 0%,
+    0% 100%,
+    34.6% 100%,
+    47.1% 86.96%,
+    100% 86.96%
+  );
 }
 .single-hold-ecm::after {
   content: "";
@@ -2188,11 +2262,23 @@ section.policy-area.section-padding {
   z-index: -1;
 }
 .hold-container:hover .single-hold-ecm::after {
-  clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 34.4% 100%, 46.8% 86.96%, 100% 86.96%);
+  clip-path: polygon(
+    100% 0%,
+    0% 0%,
+    0% 100%,
+    34.4% 100%,
+    46.8% 86.96%,
+    100% 86.96%
+  );
   display: block;
 }
 .single-hold-ecm-4 {
-  background: linear-gradient(to top, #0908054c, rgba(253, 158, 4, 0.3), #090805),
+  background: linear-gradient(
+      to top,
+      #0908054c,
+      rgba(253, 158, 4, 0.3),
+      #090805
+    ),
     url(../images/hold/4.png) no-repeat scroll center center / cover;
   padding: 40px;
   min-height: 544px;
@@ -2205,8 +2291,20 @@ section.policy-area.section-padding {
 }
 .hold-container:hover .single-hold-ecm-4 {
   border: 3px solid #fd9e04;
-  clip-path: polygon(100% 100%, 0% 100%, 0% 13.55%, 23.09% 13.55%, 35.5% 0%, 100% 0%);
-  background: linear-gradient(to top, rgba(253, 158, 4, 0.5), rgba(253, 158, 4, 0.4), #090805),
+  clip-path: polygon(
+    100% 100%,
+    0% 100%,
+    0% 13.55%,
+    23.09% 13.55%,
+    35.5% 0%,
+    100% 0%
+  );
+  background: linear-gradient(
+      to top,
+      rgba(253, 158, 4, 0.5),
+      rgba(253, 158, 4, 0.4),
+      #090805
+    ),
     url(../images/hold/3.png) no-repeat scroll center center / cover;
 }
 
@@ -2219,7 +2317,14 @@ section.policy-area.section-padding {
 }
 .hold-container:hover .single-hold-ecm-4::before {
   background: #fd9e04;
-  clip-path: polygon(100% 100%, 0% 100%, 0% 13.55%, 23.09% 13.55%, 35.5% 0%, 100% 0%);
+  clip-path: polygon(
+    100% 100%,
+    0% 100%,
+    0% 13.55%,
+    23.09% 13.55%,
+    35.5% 0%,
+    100% 0%
+  );
 }
 
 .single-hold-ecm-4::after {
@@ -2231,7 +2336,14 @@ section.policy-area.section-padding {
 }
 
 .hold-container:hover .single-hold-ecm-4::after {
-  clip-path: polygon(100% 100%, 0% 100%, 0% 13.55%, 23.09% 13.55%, 35.5% 0%, 100% 0%);
+  clip-path: polygon(
+    100% 100%,
+    0% 100%,
+    0% 13.55%,
+    23.09% 13.55%,
+    35.5% 0%,
+    100% 0%
+  );
 }
 
 /* Update shape code End  */
@@ -2262,7 +2374,11 @@ section.policy-area.section-padding {
 .about-shape span {
   display: block;
   border: 2px solid;
-  border-image-source: linear-gradient(355.03deg, #fd9e03 -0.35%, #090805 101.78%);
+  border-image-source: linear-gradient(
+    355.03deg,
+    #fd9e03 -0.35%,
+    #090805 101.78%
+  );
   border-image-slice: 1;
   border-image-repeat: stretch;
   position: absolute;
@@ -2288,19 +2404,31 @@ section.policy-area.section-padding {
   top: 37%;
   right: 0;
   transform: rotate(-4deg);
-  border-image-source: linear-gradient(355.03deg, #090805 -0.35%, #fd9e03 101.78%) !important;
+  border-image-source: linear-gradient(
+    355.03deg,
+    #090805 -0.35%,
+    #fd9e03 101.78%
+  ) !important;
 }
 .about-line-five {
   top: 56%;
   right: 0;
   transform: rotate(0);
-  border-image-source: linear-gradient(355.03deg, #090805 -0.35%, #fd9e03 101.78%) !important;
+  border-image-source: linear-gradient(
+    355.03deg,
+    #090805 -0.35%,
+    #fd9e03 101.78%
+  ) !important;
 }
 .about-line-six {
   top: 75%;
   right: 0;
   transform: rotate(4deg);
-  border-image-source: linear-gradient(355.03deg, #090805 -0.35%, #fd9e03 101.78%) !important;
+  border-image-source: linear-gradient(
+    355.03deg,
+    #090805 -0.35%,
+    #fd9e03 101.78%
+  ) !important;
 }
 
 /* .about-bitcoin-img > img  {
@@ -2329,7 +2457,8 @@ section.policy-area.section-padding {
 .about-line-four .ball,
 .about-line-five .ball,
 .about-line-six .ball {
-  animation: moveBounceReverse 6s linear infinite, bounceY 1s ease-in-out infinite;
+  animation: moveBounceReverse 6s linear infinite,
+    bounceY 1s ease-in-out infinite;
 }
 
 /* Delay + speed variation */
@@ -2433,4 +2562,8 @@ section.policy-area.section-padding {
 
 .blog-item h5 {
   font-weight: 400 !important;
+}
+
+.g-20{
+  gap: 20px;
 }

@@ -134,7 +134,7 @@
     justify-content: center;
     margin-top: 35px;
   }
-  .hold-btn { 
+  .hold-btn {
     padding-bottom: 40px;
   }
   .mlr-0 {
@@ -362,7 +362,6 @@
   .about-content.about-reverse .row:nth-child(even) {
     flex-direction: column;
   }
-
   .single-coin {
     flex: 0 0 40%;
   }

@@ -1,487 +1,678 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta property="og:title" content="">
-        <meta property="og:type" content="">
-        <meta property="og:url" content="">
-        <meta property="og:image" content="">
-        <title>Meta Fusion Labs</title>
-        <link rel="icon" href="assets/images/fav.png">
-        <!-- Bootstrap -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <!-- Slider here -->
-        <link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
-        <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css" />
-        <!-- Fontawesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
-        <!-- Normalize -->
-        <link rel="stylesheet" href="assets/css/normalize.css">
-        <!-- CSS Files -->
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/responsive.css">
-    </head>
-    <body> 
-        <!--=====================  Start Header Area  ====================-->
-        <header class="header-area">
-        <div class="container">
-            <div class="d-flex align-items-center justify-content-between header">
-            <div class="logo">
-                <a href="index.html"><img src="assets/images/logo.png" alt="logo" /></a>
-                <button class="mobile-bars"><i class="fa-solid fa-bars-staggered"></i></button>
-            </div>
-            <div class="nav">
-                <ul class="d-flex flex-lg-row flex-column align-items-center gx-4">
-                <li><a class="nav-a" href="index.html">Home</a></li>
-                <li><a class="nav-a" href="about-us.html">About</a></li>
-                <li><a class="nav-a" href="ecm-coin.html">ECM Coin</a></li>
-                <li><a class="nav-a active" href="eco-system.html">Ecosystem</a></li>
-                <li class="desktop-none">
-                    <a href="contact.html" class="btn-1">
-                    Contact Us
-                    <img src="assets/images/hero/btn-1-shape.png" alt="" />
-                    </a>
-                </li>
-                </ul>
-            </div>
-            <div class="header-btn mobile-none">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <title>Meta Fusion Labs</title>
+    <link rel="icon" href="assets/images/fav.png" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- Slider here -->
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css" />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <!-- Normalize -->
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <!--=====================  Start Header Area  ====================-->
+    <header class="header-area">
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-between header">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="assets/images/logo.png" alt="logo"
+            /></a>
+            <button class="mobile-bars">
+              <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+          </div>
+          <div class="nav">
+            <ul class="d-flex flex-lg-row flex-column align-items-center gx-4">
+              <li><a class="nav-a" href="index.html">Home</a></li>
+              <li><a class="nav-a" href="about-us.html">About</a></li>
+              <li><a class="nav-a" href="ecm-coin.html">ECM Coin</a></li>
+              <li>
+                <a class="nav-a active" href="eco-system.html">Ecosystem</a>
+              </li>
+              <li class="desktop-none">
                 <a href="contact.html" class="btn-1">
-                Contact Us
-                <img src="assets/images/hero/btn-1-shape.png" alt="" />
+                  Contact Us
+                  <img src="assets/images/hero/btn-1-shape.png" alt="" />
                 </a>
-            </div>
-            </div>
+              </li>
+            </ul>
+          </div>
+          <div class="header-btn mobile-none">
+            <a href="contact.html" class="btn-1">
+              Contact Us
+              <img src="assets/images/hero/btn-1-shape.png" alt="" />
+            </a>
+          </div>
         </div>
-        </header>
-        <!--=====================  End Header Area  ====================-->
+      </div>
+    </header>
+    <!--=====================  End Header Area  ====================-->
 
-        <main class="main_area" style="overflow-x: hidden;"> 
-            <!--=====================  Start Hero Area  ====================-->
-            <section class="hero-area position-relative particle-area" data-particles="50">
-                <span class="small-shadow small-shadow-left-1"></span>
-                <span class="small-shadow small-shadow-left-4"></span>
-                <span class="long-shadow long-shadow-left"></span>
-                <span class="small-shadow small-shadow-left-2"></span>
-                <span class="small-shadow small-shadow-right-1"></span>
-                <span class="long-shadow long-shadow-right"></span>
-                <span class="small-shadow small-shadow-right-2"></span>
-                <span class="rectangle-shape rectangle-shape-right"></span>
-                <span class="rectangle-shape rectangle-shape-left"></span>
-                <!-- bar line -->
-                 <div class="bar-line-animation bar-line-animation-1">
-                    <div class="svg-item">
-                        <svg width="100%" height="100%">
-                            <defs>
-                            <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                                <stop offset="0%" stop-color="#19130D" />
-                                <stop offset="100%" stop-color="#27221C" />
-                            </linearGradient>
-                            </defs>
-                            <path d="M20,20 V100 H200 V180 H180" class="path" />
-                            <circle r="3" class="dot motion-dot motion-dot-1" />
-                        </svg>
-                    </div>
-                    <div class="svg-item" style="margin-left: 50px;    margin-top: -119px;">
-                        <svg width="100%" height="100%">
-                        <defs>
-                        <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                            <stop offset="0%" stop-color="#19130D" />
-                            <stop offset="100%" stop-color="#27221C" />
-                        </linearGradient>
-                        </defs>
-                        <path d="M20,20 V100 H100 V20 H160" class="path" />
-                        <circle r="3" class="dot motion-dot motion-dot-2" />
-                    </svg>
-                    </div>
-                    <div class="svg-item" style="transform: rotateY(180deg);
-                        display: inline-block;margin-left:-100px;margin-top: -60px;">
-                        <svg width="100%" height="100%">
-                        <defs>
-                        <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                            <stop offset="0%" stop-color="#19130D" />
-                            <stop offset="100%" stop-color="#27221C" />
-                        </linearGradient>
-                        </defs>
-                        <path d="M20,20 V100 H100 V20 H160" class="path" />
-                        <circle r="3" class="dot motion-dot motion-dot-2" />
-                    </svg>
-                    </div>
-                 </div>
-                 <div class="bar-line-animation bar-line-animation-2">
-                    <div class="svg-item">
-                        <svg width="100%" height="100%">
-                            <defs>
-                            <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                                <stop offset="0%" stop-color="#19130D" />
-                                <stop offset="100%" stop-color="#27221C" />
-                            </linearGradient>
-                            </defs>
-                            <path d="M20,20 V100 H200 V180 H180" class="path" />
-                            <circle r="3" class="dot motion-dot motion-dot-1" />
-                        </svg>
-                    </div>
-                    <div class="svg-item" style="margin-left: 50px;    margin-top: -119px;">
-                        <svg width="100%" height="100%">
-                        <defs>
-                        <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                            <stop offset="0%" stop-color="#19130D" />
-                            <stop offset="100%" stop-color="#27221C" />
-                        </linearGradient>
-                        </defs>
-                        <path d="M20,20 V100 H100 V20 H160" class="path" />
-                        <circle r="3" class="dot motion-dot motion-dot-2" />
-                    </svg>
-                    </div>
-                    <div class="svg-item" style="transform: rotateY(180deg);
-                        display: inline-block;margin-left:-100px;margin-top: -60px;">
-                        <svg width="100%" height="100%">
-                        <defs>
-                        <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                            <stop offset="0%" stop-color="#19130D" />
-                            <stop offset="100%" stop-color="#27221C" />
-                        </linearGradient>
-                        </defs>
-                        <path d="M20,20 V100 H100 V20 H160" class="path" />
-                        <circle r="3" class="dot motion-dot motion-dot-2" />
-                    </svg>
-                    </div>
-                 </div>
-                <div class="container">
-                    <div class="hero-content pb-5">
-                        <div class="hero-crypto-text">
-                             <div class="common-section-title">
-                                <h6 class="common-top-title mt-66 text-center">The ECM Ecosystem</h6> 
-                                <div class="row">
-                                    <div class="col-lg-10 offset-lg-1">
-                                        <h2 class="text-center font-64 common-heading hero-header-title mt-24">
-                                            A Unified
-                                            <span class="primary-color">Web3 Network</span> Built for
-                                            <span class="primary-color">Real-World</span> Utility
-                                        </h2>
-                                    </div>
-                                </div>
-                                <p class="common-paragraph text-center mlr-0">The ECM Ecosystem brings together a suite of interconnected platforms designed to accelerate blockchain adoption across commerce, finance, gaming, and community governance. Each component plays a strategic role in driving real-world use of the ECM Coin and strengthening the utility of the entire network.</p>
-                            </div> 
-                        </div> 
-                    </div>
-                </div>
-            </section>
-             
-            <!--=====================  End Hero Area  ====================--> 
-             
-            <!--=====================  Start Web3 Area  ====================--> 
-            <section class="web3-area section-padding">
-                <div class="container">
-                     
-                    <div class="web3-content">
-                        <div class="row g-5"> 
-                            <div class="col-md-6">
-                                <div class="single-web3">
-                                    <div class="d-flex align-items-start justify-content-between flex-wrap g-5">
-                                        <div>
-                                            <h5 class="mb-12 web3-h5">MyCoinpoll</h5>
-                                            <p class="mb-16">ECM's centralized exchange where users can trade ECM Tokens with reduced fees and enhanced security.</p>
-                                        </div>
-                                    </div>
-                                    <p class="font-20 color-fd9">Launchpad for token sales</p>
-                                    <div class="web3-btn mt-24">
-                                        <a href="#" class="btn-2">View Project <i class="fa-solid fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="single-web3">
-                                    <div class="d-flex align-items-start justify-content-between flex-wrap g-5">
-                                        <div>
-                                            <h5 class="mb-12 web3-h5">Androverse</h5>
-                                            <p class="mb-16">ECM's centralized exchange where users can trade ECM Tokens with reduced fees and enhanced security.</p>
-                                        </div>
-                                    </div>
-                                    <p class="font-20 color-fd9">Metaverse with NFT commerce</p>
-                                    <div class="web3-btn mt-24">
-                                        <a href="#" class="btn-2">View Project <i class="fa-solid fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="single-web3">
-                                    <div class="d-flex align-items-start justify-content-between flex-wrap g-5">
-                                        <div>
-                                            <h5 class="mb-12 web3-h5">BcoinMart</h5>
-                                            <p class="mb-16">ECM's centralized exchange where users can trade ECM Tokens with reduced fees and enhanced security.</p>
-                                        </div>
-                                    </div>
-                                    <p class="font-20 color-fd9">Centralized exchange</p>
-                                    <div class="web3-btn mt-24">
-                                        <a href="#" class="btn-2">View Project <i class="fa-solid fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="single-web3">
-                                    <div class="d-flex align-items-start justify-content-between flex-wrap g-5">
-                                        <div>
-                                            <h5 class="mb-12 web3-h5">Tap Tap Game</h5>
-                                            <p class="mb-16">ECM's centralized exchange where users can trade ECM Tokens with reduced fees and enhanced security.</p>
-                                        </div>
-                                    </div>
-                                    <p class="font-20 color-fd9">Telegram-based tap-to-earn engagement</p>
-                                    <div class="web3-btn mt-24">
-                                        <a href="#" class="btn-2">View Project <i class="fa-solid fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="single-web3">
-                                    <div class="d-flex align-items-start justify-content-between flex-wrap g-5">
-                                        <div>
-                                            <h5 class="mb-12 web3-h5">Andro Markets Ltd</h5>
-                                            <p class="mb-16">ECM's centralized exchange where users can trade ECM Tokens with reduced fees and enhanced security.</p>
-                                        </div>
-                                    </div>
-                                    <p class="font-20 color-fd9">Licensed forex broker</p>
-                                    <div class="web3-btn mt-24">
-                                        <a href="#" class="btn-2">View Project <i class="fa-solid fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="single-web3">
-                                   <div class="d-flex align-items-start justify-content-between flex-wrap g-5">
-                                        <div>
-                                            <h5 class="mb-12 web3-h5">ECM Blockchain</h5>
-                                            <p class="mb-16">ECM's centralized exchange where users can trade ECM Tokens with reduced fees and enhanced security.</p>
-                                        </div>
-                                    </div>
-                                    <p class="font-20 color-fd9">Custom Layer 1 chain launching in 2026</p>
-                                    <div class="web3-btn mt-24">
-                                        <a href="#" class="btn-2">View Project <i class="fa-solid fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-shape">
-                    <div class="about-left">
-                        <img src="assets/images/about/left.png" alt="">
-                    </div>
-                    <div class="about-right">
-                        <img src="assets/images/about/right.png" alt="">
-                    </div>
-                </div>
-            </section>
-            <!--=====================  End Web3 Area  ====================-->  
-            <!--=====================  End Crypto Action Area  ====================--> 
-            <section class="form-area position-relative">
-                <div class="ellipse ellipse-1"></div>
-                <div class="container">
-                    <div class="form-text row g-5">
-                        <div class="col-xl-7 col-lg-6">
-                            <div class="form-text-left">
-                                <div class="form-text-header">
-                                    <h1 class="banner-heading-text">
-                                        Get It On The <span class="primary-color"> Crypto Action</span>
-                                    </h1>
-                                    <p>
-                                        Provide easy access to customer support through chatbots or
-                                        live chat features.
-                                    </p>
-                                </div>
-                                <div class="form-text-header">
-                                    <ul class="d-flex">
-                                        <li>
-                                            <a class="social-icon" href="#"
-                                            ><i class="fa-solid fa-paper-plane"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="social-icon" href="#"
-                                            ><i class="fa-brands fa-discord"></i
-                                        ></a>
-                                        </li>
-                                        <li>
-                                        <a class="social-icon" href="#"
-                                            ><i class="fa-brands fa-linkedin-in"></i
-                                        ></a>
-                                        </li>
-                                        <li>
-                                        <a class="social-icon" href="#"
-                                            ><i class="fa-brands fa-x-twitter"></i
-                                        ></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-5 col-lg-6">
-                            <div class="form-text-right">
-                                <div class="form-group">
-                                <label for="exampleInputEmail1" class="form-label"
-                                    >Email address</label
-                                >
-                                <input
-                                    type="email"
-                                    class="form-control"
-                                    placeholder="Enter Email Address"
-                                />
-                                </div>
-                                <div class="form-group">
-                                <label for="exampleInputEmail1" class="form-label"
-                                    >Your Topic</label
-                                >
-                                <input
-                                    type="text"
-                                    class="form-control"
-                                    placeholder="Enter Your Topic"
-                                />
-                                </div>
-                                <a href="#" class="btn-1">Send Message <img src="assets/images/hero/btn-1-shape.png" alt=""></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!--=====================  End Crypto Action Area  ====================-->  
-        </main>
-        <!--=====================  Start Footer Area  ====================-->
-         <footer class="footer-area position-relative">
-            <div class="ellipse ellipse-2"></div>
-            <!-- bar line -->
-            <div class="bar-line-animation bar-line-animation-3">
-            <div class="svg-item">
-                <svg width="100%" height="100%">
-                    <defs>
-                    <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                        <stop offset="0%" stop-color="#19130D" />
-                        <stop offset="100%" stop-color="#27221C" />
-                    </linearGradient>
-                    </defs>
-                    <path d="M20,20 V100 H200 V180 H180" class="path" />
-                    <circle r="3" class="dot motion-dot motion-dot-1" />
-                </svg>
-            </div>
-            <div class="svg-item" style="margin-left: 50px;  margin-top: -119px;">
-                <svg width="100%" height="100%">
-                <defs>
-                <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                    <stop offset="0%" stop-color="#19130D" />
-                    <stop offset="100%" stop-color="#27221C" />
+    <main class="main_area" style="overflow-x: hidden">
+      <!--=====================  Start Hero Area  ====================-->
+      <section
+        class="hero-area position-relative particle-area"
+        data-particles="50"
+      >
+        <span class="small-shadow small-shadow-left-1"></span>
+        <span class="small-shadow small-shadow-left-4"></span>
+        <span class="long-shadow long-shadow-left"></span>
+        <span class="small-shadow small-shadow-left-2"></span>
+        <span class="small-shadow small-shadow-right-1"></span>
+        <span class="long-shadow long-shadow-right"></span>
+        <span class="small-shadow small-shadow-right-2"></span>
+        <span class="rectangle-shape rectangle-shape-right"></span>
+        <span class="rectangle-shape rectangle-shape-left"></span>
+        <!-- bar line -->
+        <div class="bar-line-animation bar-line-animation-1">
+          <div class="svg-item">
+            <svg width="100%" height="100%">
+              <defs>
+                <linearGradient
+                  id="lineGradient"
+                  x1="0%"
+                  y1="0%"
+                  x2="100%"
+                  y2="0%"
+                >
+                  <stop offset="0%" stop-color="#19130D" />
+                  <stop offset="100%" stop-color="#27221C" />
                 </linearGradient>
-                </defs>
-                <path d="M20,20 V100 H100 V20 H160" class="path" />
-                <circle r="3" class="dot motion-dot motion-dot-2" />
+              </defs>
+              <path d="M20,20 V100 H200 V180 H180" class="path" />
+              <circle r="3" class="dot motion-dot motion-dot-1" />
             </svg>
-            </div>
-            <div class="svg-item" style="transform: rotateY(180deg);
-                display: inline-block;margin-left:-100px;margin-top: -60px;">
-                <svg width="100%" height="100%">
-                    <defs>
-                    <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                        <stop offset="0%" stop-color="#19130D" />
-                        <stop offset="100%" stop-color="#27221C" />
-                    </linearGradient>
-                    </defs>
-                    <path d="M20,20 V100 H100 V20 H160" class="path" />
-                    <circle r="3" class="dot motion-dot motion-dot-2" />
-                </svg>
-            </div>
-            </div>
-            <div class="bar-line-animation bar-line-animation-4">
-            <div class="svg-item">
-                <svg width="100%" height="100%">
-                    <defs>
-                    <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                        <stop offset="0%" stop-color="#19130D" />
-                        <stop offset="100%" stop-color="#27221C" />
-                    </linearGradient>
-                    </defs>
-                    <path d="M20,20 V100 H200 V180 H180" class="path" />
-                    <circle r="3" class="dot motion-dot motion-dot-1" />
-                </svg>
-            </div>
-            <div class="svg-item" style="margin-left: 50px; margin-top: -119px;">
-                <svg width="100%" height="100%">
-                <defs>
-                <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                    <stop offset="0%" stop-color="#19130D" />
-                    <stop offset="100%" stop-color="#27221C" />
+          </div>
+          <div class="svg-item" style="margin-left: 50px; margin-top: -119px">
+            <svg width="100%" height="100%">
+              <defs>
+                <linearGradient
+                  id="lineGradient"
+                  x1="0%"
+                  y1="0%"
+                  x2="100%"
+                  y2="0%"
+                >
+                  <stop offset="0%" stop-color="#19130D" />
+                  <stop offset="100%" stop-color="#27221C" />
                 </linearGradient>
-                </defs>
-                <path d="M20,20 V100 H100 V20 H160" class="path" />
-                <circle r="3" class="dot motion-dot motion-dot-2" />
-                </svg>
-            </div>
-            <div class="svg-item" style="transform: rotateY(180deg);
-                display: inline-block;margin-left:-100px;margin-top: -60px;">
-                <svg width="100%" height="100%">
-                <defs>
-                <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                    <stop offset="0%" stop-color="#19130D" />
-                    <stop offset="100%" stop-color="#27221C" />
-                </linearGradient>
-                </defs>
-                <path d="M20,20 V100 H100 V20 H160" class="path" />
-                <circle r="3" class="dot motion-dot motion-dot-2" />
+              </defs>
+              <path d="M20,20 V100 H100 V20 H160" class="path" />
+              <circle r="3" class="dot motion-dot motion-dot-2" />
             </svg>
-            </div>
-            </div>
-            <div class="container">
-                <div class="footer-menu">
-                    <ul class="d-flex align-items-center justify-content-center flex-wrap g-5">
-                        <li><a class="footer-menu-item active" href="#">Home</a></li>
-                        <li><a class="footer-menu-item" href="#">Project</a></li>
-                        <li><a class="footer-menu-item" href="#">Services</a></li>
-                        <li><a class="footer-menu-item" href="#">Launchpad</a></li>
-                        <li><a class="footer-menu-item" href="blog.html">Blog</a></li>
-                        <li><a class="footer-menu-item" href="privacy.html">Privacy policy</a></li>
-                    </ul>
+          </div>
+          <div
+            class="svg-item"
+            style="
+              transform: rotateY(180deg);
+              display: inline-block;
+              margin-left: -100px;
+              margin-top: -60px;
+            "
+          >
+            <svg width="100%" height="100%">
+              <defs>
+                <linearGradient
+                  id="lineGradient"
+                  x1="0%"
+                  y1="0%"
+                  x2="100%"
+                  y2="0%"
+                >
+                  <stop offset="0%" stop-color="#19130D" />
+                  <stop offset="100%" stop-color="#27221C" />
+                </linearGradient>
+              </defs>
+              <path d="M20,20 V100 H100 V20 H160" class="path" />
+              <circle r="3" class="dot motion-dot motion-dot-2" />
+            </svg>
+          </div>
+        </div>
+        <div class="bar-line-animation bar-line-animation-2">
+          <div class="svg-item">
+            <svg width="100%" height="100%">
+              <defs>
+                <linearGradient
+                  id="lineGradient"
+                  x1="0%"
+                  y1="0%"
+                  x2="100%"
+                  y2="0%"
+                >
+                  <stop offset="0%" stop-color="#19130D" />
+                  <stop offset="100%" stop-color="#27221C" />
+                </linearGradient>
+              </defs>
+              <path d="M20,20 V100 H200 V180 H180" class="path" />
+              <circle r="3" class="dot motion-dot motion-dot-1" />
+            </svg>
+          </div>
+          <div class="svg-item" style="margin-left: 50px; margin-top: -119px">
+            <svg width="100%" height="100%">
+              <defs>
+                <linearGradient
+                  id="lineGradient"
+                  x1="0%"
+                  y1="0%"
+                  x2="100%"
+                  y2="0%"
+                >
+                  <stop offset="0%" stop-color="#19130D" />
+                  <stop offset="100%" stop-color="#27221C" />
+                </linearGradient>
+              </defs>
+              <path d="M20,20 V100 H100 V20 H160" class="path" />
+              <circle r="3" class="dot motion-dot motion-dot-2" />
+            </svg>
+          </div>
+          <div
+            class="svg-item"
+            style="
+              transform: rotateY(180deg);
+              display: inline-block;
+              margin-left: -100px;
+              margin-top: -60px;
+            "
+          >
+            <svg width="100%" height="100%">
+              <defs>
+                <linearGradient
+                  id="lineGradient"
+                  x1="0%"
+                  y1="0%"
+                  x2="100%"
+                  y2="0%"
+                >
+                  <stop offset="0%" stop-color="#19130D" />
+                  <stop offset="100%" stop-color="#27221C" />
+                </linearGradient>
+              </defs>
+              <path d="M20,20 V100 H100 V20 H160" class="path" />
+              <circle r="3" class="dot motion-dot motion-dot-2" />
+            </svg>
+          </div>
+        </div>
+        <div class="container">
+          <div class="hero-content pb-5">
+            <div class="hero-crypto-text">
+              <div class="common-section-title">
+                <h6 class="common-top-title mt-66 text-center">
+                  The ECM Ecosystem
+                </h6>
+                <div class="row">
+                  <div class="col-lg-10 offset-lg-1">
+                    <h2
+                      class="text-center font-64 common-heading hero-header-title mt-24"
+                    >
+                      A Unified
+                      <span class="primary-color">Web3 Network</span> Built for
+                      <span class="primary-color">Real-World</span> Utility
+                    </h2>
+                  </div>
                 </div>
-                <div class="footer-text mt-5">
-                    <p>&copy; 2025 <a href="#" class="color-fd9">META FUSION LABS LLC</a>. All Rights Reserved</p>
-                </div>
-                <div class="footer-companyname">
-                    <p class="company-name">MetaFusionLabs</p>
-                </div>
+                <p class="common-paragraph text-center mlr-0">
+                  The ECM Ecosystem brings together a suite of interconnected
+                  platforms designed to accelerate blockchain adoption across
+                  commerce, finance, gaming, and community governance. Each
+                  component plays a strategic role in driving real-world use of
+                  the ECM Coin and strengthening the utility of the entire
+                  network.
+                </p>
+              </div>
             </div>
-        </footer>
-        <!--=====================  End Footer Area  ====================-->
-        <!-- ~~~~~~~~~~ JS Files ~~~~~~~~~~-->
-        <!-- jQuery -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/popper.min.js"></script>
-        <!-- Bootstrap -->
-        <script src="assets/js/bootstrap.min.js"></script>
-        <!-- Owl Carousel -->
-        <script src="assets/js/owl.carousel.min.js"></script>
-        <!-- Modernizr -->
-        <script src="assets/js/modernizr-3.11.2.min.js"></script> 
-        <!-- Custom JS (Handed)-->
-        <script src="assets/js/scripts.js"></script>
-        <script>
-            const areas = document.querySelectorAll(".particle-area");
+          </div>
+        </div>
+      </section>
 
-            areas.forEach((area) => {
-            area.style.position = "relative";
+      <!--=====================  End Hero Area  ====================-->
 
-            const numParticles = parseInt(area.getAttribute("data-particles")) || 30;
+      <!--=====================  Start Web3 Area  ====================-->
+      <section class="web3-area section-padding">
+        <div class="container">
+          <div class="web3-content">
+            <div class="row g-5">
+              <div class="col-md-6">
+                <div
+                  class="single-web3 h-100 d-flex flex-column justify-content-between"
+                >
+                  <div>
+                    <h5 class="mb-12 web3-h5">MyCoinpoll</h5>
+                    <p class="mb-16">
+                      ECM's centralized exchange where users can trade ECM
+                      Tokens with reduced fees and enhanced security. Lorem
+                      ipsum dolor sit amet consectetur adipisicing elit.
+                      Praesentium assumenda quia, aliquam pariatur ad itaque
+                      dolore ipsa provident voluptatum autem quam sit inventore
+                      dolorem nisi ut omnis incidunt totam! Deserunt.
+                    </p>
+                  </div>
 
-            for (let i = 0; i < numParticles; i++) {
-                const particle = document.createElement("div");
-                particle.classList.add("particle");
+                  <div
+                    class="d-flex align-items-center justify-content-between flex-wrap g-20"
+                  >
+                    <p class="font-20 color-fd9">Launchpad for token sales</p>
 
-                particle.style.left = Math.random() * 100 + "%";
-                particle.style.top = 80 + Math.random() * 20 + "%";
+                    <a href="#" class="btn-2"
+                      >View Project <i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div
+                  class="single-web3 h-100 d-flex flex-column justify-content-between"
+                >
+                  <div>
+                    <h5 class="mb-12 web3-h5">Androverse</h5>
+                    <p class="mb-16">
+                      ECM's centralized exchange where users can trade ECM
+                      Tokens with reduced fees and enhanced security.
+                    </p>
+                  </div>
 
-                const duration = 4 + Math.random() * 4;
-                const delay = Math.random() * 5;
-                particle.style.animationDuration = `${duration}s`;
-                particle.style.animationDelay = `${delay}s`;
-                area.appendChild(particle);
-            }
-            });
-        </script>
-    </body>
-</html> 
+                  <div
+                    class="d-flex align-items-center justify-content-between flex-wrap g-20"
+                  >
+                    <p class="font-20 color-fd9">Metaverse with NFT commerce</p>
+
+                    <a href="#" class="btn-2"
+                      >View Project <i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="single-web3 h-100 d-flex flex-column justify-content-between">
+               
+                    <div>
+                      <h5 class="mb-12 web3-h5">BcoinMart</h5>
+                      <p class="mb-16">
+                        ECM's centralized exchange where users can trade ECM
+                        Tokens with reduced fees and enhanced security.
+                      </p>
+                    </div>
+                   
+                  <div
+                    class="d-flex align-items-center justify-content-between flex-wrap g-20"
+                  >
+                    <p class="font-20 color-fd9">Centralized exchange</p>
+
+                    <a href="#" class="btn-2"
+                      >View Project <i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </div>
+                   
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="single-web3 h-100 d-flex flex-column justify-content-between">
+                   
+                    <div>
+                      <h5 class="mb-12 web3-h5">Tap Tap Game</h5>
+                      <p class="mb-16">
+                        ECM's centralized exchange where users can trade ECM
+                        Tokens with reduced fees and enhanced security.
+                      </p>
+                    </div>
+               
+                  <div
+                    class="d-flex align-items-center justify-content-between flex-wrap g-20"
+                  >
+                    <p class="font-20 color-fd9">Telegram-based tap-to-earn engagement</p>
+
+                    <a href="#" class="btn-2"
+                      >View Project <i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="single-web3 h-100 d-flex flex-column justify-content-between">
+                  
+                    <div>
+                      <h5 class="mb-12 web3-h5">Andro Markets Ltd</h5>
+                      <p class="mb-16">
+                        ECM's centralized exchange where users can trade ECM
+                        Tokens with reduced fees and enhanced security.
+                      </p>
+                    </div>
+                  
+                  <div
+                    class="d-flex align-items-center justify-content-between flex-wrap g-20"
+                  >
+                    <p class="font-20 color-fd9">Licensed forex broker</p>
+
+                    <a href="#" class="btn-2"
+                      >View Project <i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </div>
+                   
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="single-web3 h-100 d-flex flex-column justify-content-between">
+                   
+                    <div>
+                      <h5 class="mb-12 web3-h5">ECM Blockchain</h5>
+                      <p class="mb-16">
+                        ECM's centralized exchange where users can trade ECM
+                        Tokens with reduced fees and enhanced security.
+                      </p>
+                    </div>
+               
+                  <div
+                    class="d-flex align-items-center justify-content-between flex-wrap g-20"
+                  >
+                    <p class="font-20 color-fd9">Custom Layer 1 chain launching in 2026</p>
+
+                    <a href="#" class="btn-2"
+                      >View Project <i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-shape">
+          <div class="about-left">
+            <img src="assets/images/about/left.png" alt="" />
+          </div>
+          <div class="about-right">
+            <img src="assets/images/about/right.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!--=====================  End Web3 Area  ====================-->
+      <!--=====================  End Crypto Action Area  ====================-->
+      <section class="form-area position-relative">
+        <div class="ellipse ellipse-1"></div>
+        <div class="container">
+          <div class="form-text row g-5">
+            <div class="col-xl-7 col-lg-6">
+              <div class="form-text-left">
+                <div class="form-text-header">
+                  <h1 class="banner-heading-text">
+                    Get It On The
+                    <span class="primary-color"> Crypto Action</span>
+                  </h1>
+                  <p>
+                    Provide easy access to customer support through chatbots or
+                    live chat features.
+                  </p>
+                </div>
+                <div class="form-text-header">
+                  <ul class="d-flex">
+                    <li>
+                      <a class="social-icon" href="#"
+                        ><i class="fa-solid fa-paper-plane"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="social-icon" href="#"
+                        ><i class="fa-brands fa-discord"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a class="social-icon" href="#"
+                        ><i class="fa-brands fa-linkedin-in"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a class="social-icon" href="#"
+                        ><i class="fa-brands fa-x-twitter"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5 col-lg-6">
+              <div class="form-text-right">
+                <div class="form-group">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Enter Email Address"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Your Topic</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter Your Topic"
+                  />
+                </div>
+                <a href="#" class="btn-1"
+                  >Send Message
+                  <img src="assets/images/hero/btn-1-shape.png" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--=====================  End Crypto Action Area  ====================-->
+    </main>
+    <!--=====================  Start Footer Area  ====================-->
+    <footer class="footer-area position-relative">
+      <div class="ellipse ellipse-2"></div>
+      <!-- bar line -->
+      <div class="bar-line-animation bar-line-animation-3">
+        <div class="svg-item">
+          <svg width="100%" height="100%">
+            <defs>
+              <linearGradient
+                id="lineGradient"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="0%"
+              >
+                <stop offset="0%" stop-color="#19130D" />
+                <stop offset="100%" stop-color="#27221C" />
+              </linearGradient>
+            </defs>
+            <path d="M20,20 V100 H200 V180 H180" class="path" />
+            <circle r="3" class="dot motion-dot motion-dot-1" />
+          </svg>
+        </div>
+        <div class="svg-item" style="margin-left: 50px; margin-top: -119px">
+          <svg width="100%" height="100%">
+            <defs>
+              <linearGradient
+                id="lineGradient"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="0%"
+              >
+                <stop offset="0%" stop-color="#19130D" />
+                <stop offset="100%" stop-color="#27221C" />
+              </linearGradient>
+            </defs>
+            <path d="M20,20 V100 H100 V20 H160" class="path" />
+            <circle r="3" class="dot motion-dot motion-dot-2" />
+          </svg>
+        </div>
+        <div
+          class="svg-item"
+          style="
+            transform: rotateY(180deg);
+            display: inline-block;
+            margin-left: -100px;
+            margin-top: -60px;
+          "
+        >
+          <svg width="100%" height="100%">
+            <defs>
+              <linearGradient
+                id="lineGradient"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="0%"
+              >
+                <stop offset="0%" stop-color="#19130D" />
+                <stop offset="100%" stop-color="#27221C" />
+              </linearGradient>
+            </defs>
+            <path d="M20,20 V100 H100 V20 H160" class="path" />
+            <circle r="3" class="dot motion-dot motion-dot-2" />
+          </svg>
+        </div>
+      </div>
+      <div class="bar-line-animation bar-line-animation-4">
+        <div class="svg-item">
+          <svg width="100%" height="100%">
+            <defs>
+              <linearGradient
+                id="lineGradient"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="0%"
+              >
+                <stop offset="0%" stop-color="#19130D" />
+                <stop offset="100%" stop-color="#27221C" />
+              </linearGradient>
+            </defs>
+            <path d="M20,20 V100 H200 V180 H180" class="path" />
+            <circle r="3" class="dot motion-dot motion-dot-1" />
+          </svg>
+        </div>
+        <div class="svg-item" style="margin-left: 50px; margin-top: -119px">
+          <svg width="100%" height="100%">
+            <defs>
+              <linearGradient
+                id="lineGradient"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="0%"
+              >
+                <stop offset="0%" stop-color="#19130D" />
+                <stop offset="100%" stop-color="#27221C" />
+              </linearGradient>
+            </defs>
+            <path d="M20,20 V100 H100 V20 H160" class="path" />
+            <circle r="3" class="dot motion-dot motion-dot-2" />
+          </svg>
+        </div>
+        <div
+          class="svg-item"
+          style="
+            transform: rotateY(180deg);
+            display: inline-block;
+            margin-left: -100px;
+            margin-top: -60px;
+          "
+        >
+          <svg width="100%" height="100%">
+            <defs>
+              <linearGradient
+                id="lineGradient"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="0%"
+              >
+                <stop offset="0%" stop-color="#19130D" />
+                <stop offset="100%" stop-color="#27221C" />
+              </linearGradient>
+            </defs>
+            <path d="M20,20 V100 H100 V20 H160" class="path" />
+            <circle r="3" class="dot motion-dot motion-dot-2" />
+          </svg>
+        </div>
+      </div>
+      <div class="container">
+        <div class="footer-menu">
+          <ul
+            class="d-flex align-items-center justify-content-center flex-wrap g-5"
+          >
+            <li><a class="footer-menu-item active" href="#">Home</a></li>
+            <li><a class="footer-menu-item" href="#">Project</a></li>
+            <li><a class="footer-menu-item" href="#">Services</a></li>
+            <li><a class="footer-menu-item" href="#">Launchpad</a></li>
+            <li><a class="footer-menu-item" href="blog.html">Blog</a></li>
+            <li>
+              <a class="footer-menu-item" href="privacy.html">Privacy policy</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-text mt-5">
+          <p>
+            &copy; 2025 <a href="#" class="color-fd9">META FUSION LABS LLC</a>.
+            All Rights Reserved
+          </p>
+        </div>
+        <div class="footer-companyname">
+          <p class="company-name">MetaFusionLabs</p>
+        </div>
+      </div>
+    </footer>
+    <!--=====================  End Footer Area  ====================-->
+    <!-- ~~~~~~~~~~ JS Files ~~~~~~~~~~-->
+    <!-- jQuery -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Owl Carousel -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- Modernizr -->
+    <script src="assets/js/modernizr-3.11.2.min.js"></script>
+    <!-- Custom JS (Handed)-->
+    <script src="assets/js/scripts.js"></script>
+    <script>
+      const areas = document.querySelectorAll(".particle-area");
+
+      areas.forEach((area) => {
+        area.style.position = "relative";
+
+        const numParticles =
+          parseInt(area.getAttribute("data-particles")) || 30;
+
+        for (let i = 0; i < numParticles; i++) {
+          const particle = document.createElement("div");
+          particle.classList.add("particle");
+
+          particle.style.left = Math.random() * 100 + "%";
+          particle.style.top = 80 + Math.random() * 20 + "%";
+
+          const duration = 4 + Math.random() * 4;
+          const delay = Math.random() * 5;
+          particle.style.animationDuration = `${duration}s`;
+          particle.style.animationDelay = `${delay}s`;
+          area.appendChild(particle);
+        }
+      });
+    </script>
+  </body>
+</html>

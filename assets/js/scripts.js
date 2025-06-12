@@ -16,7 +16,6 @@ $(document).ready(function () {
   }
   $(".mobile-bars").click(function () {
     $(".nav").slideToggle();
-
     // Toggle icon
     const icon = $(this).find("i");
     if (icon.hasClass("fa-bars-staggered")) {
@@ -52,7 +51,7 @@ $(document).ready(function () {
         margin: 20,
       },
       1000: {
-        items: 3.4,
+        items: 3.4, 
         margin: 30,
       },
       1300: {
